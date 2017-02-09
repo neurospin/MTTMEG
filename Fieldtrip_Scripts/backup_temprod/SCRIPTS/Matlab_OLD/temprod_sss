@@ -1,0 +1,50 @@
+#!/bin/tcsh
+# set directories  
+set study_dir = /neurospin/local/neuromag/data/temprod/
+
+# s01 -junk data 
+# determine head positions
+# /neurospin/local/neuromag/bin/util/show_fiff -vt 222 /neurospin/local/neuromag/data/temprod/s01/*.fif
+# set raw_dir = /neurospin/local/neuromag/data/temprod/uj_080215/090723/
+# set sss_dir = /neurospin/tmp/vvw/temprod/s01/
+# set HeadPosf = s01_b7_d4_raw.fif
+#
+# s02
+# /neurospin/local/neuromag/bin/util/show_fiff -vt 222 /neurospin/local/neuromag/data/temprod/s02/*.fif
+set raw_dir = /neurospin/local/neuromag/data/temprod/ar_090177/090804/
+set sss_dir = /neurospin/tmp/vvw/temprod/s02/
+set HeadPosf = s02_b4d6_raw.fif
+
+# s03
+# /neurospin/local/neuromag/bin/util/show_fiff -vt 222 /neurospin/local/neuromag/data/temprod/vl_070133/090804/s03*.fif
+#set raw_dir = /neurospin/local/neuromag/data/temprod/vl_070133/090804/
+#set sss_dir = /neurospin/tmp/vvw/temprod/s03/
+#set HeadPosf = s03_b3d5_raw.fif
+
+cd $raw_dir
+
+foreach f(`ls *raw*.fif`) 
+	
+	scp $f $sss_dir$f
+	cd $sss_dir
+	
+	#print "Maxfiltering on" $f "w/ AUTOBAD & HEADTRANSFORM ON"
+	#maxfilter -v -f $f -bad 0531 1211 1212 1213 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans $HeadPosf
+	
+	print "Maxfiltering on" $f "w/ AUTOBAD"
+        maxfilter -v -f $f -bad 0531 1211 1212 1213 -autobad 20 -badlimit 7 -frame head -origin 0 0 40
+	
+	rm $f
+	cd $raw_dir
+end
+
+#maxfilter -v -f  s01_b13_d4_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b14_d5_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b1_d5_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b2_d2_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b3_d6_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b5_d5_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b6_d1_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b7_d4_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b8_d2_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif
+#maxfilter -v -f  s01_b9_d2_raw.fif -bad 0531 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans s01_b7_d4_raw.fif

@@ -1,0 +1,462 @@
+{
+    "jobs": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31
+    ], 
+    "name": null, 
+    "serialized_jobs": {
+        "24": {
+            "name": "rank_ma100253EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_ma100253EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "25": {
+            "name": "rank_sl130503EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_sl130503EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "26": {
+            "name": "rank_mb140004EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_mb140004EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "27": {
+            "name": "rank_mp140019EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_mp140019EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "20": {
+            "name": "rank_sb120316EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_sb120316EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "21": {
+            "name": "rank_tk130502EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_tk130502EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "22": {
+            "name": "rank_lm130479EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_lm130479EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "23": {
+            "name": "rank_ms130534EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_ms130534EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "28": {
+            "name": "rank_dm130250EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_dm130250EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "29": {
+            "name": "rank_hr130504EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_hr130504EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "1": {
+            "name": "rank_cb130477EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_cb130477EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "0": {
+            "name": "rank_sd130343EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_sd130343EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "3": {
+            "name": "rank_jm100109EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_jm100109EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "2": {
+            "name": "rank_rb130313EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_rb130313EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "5": {
+            "name": "rank_tk130502EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_tk130502EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "4": {
+            "name": "rank_sb120316EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_sb120316EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "7": {
+            "name": "rank_ms130534EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_ms130534EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "6": {
+            "name": "rank_lm130479EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_lm130479EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "9": {
+            "name": "rank_sl130503EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_sl130503EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "8": {
+            "name": "rank_ma100253EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_ma100253EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "11": {
+            "name": "rank_mp140019EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_mp140019EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "10": {
+            "name": "rank_mb140004EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_mb140004EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "13": {
+            "name": "rank_hr130504EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_hr130504EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "12": {
+            "name": "rank_dm130250EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_dm130250EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "15": {
+            "name": "rank_rl130571EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_rl130571EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "14": {
+            "name": "rank_wl130316EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_wl130316EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "17": {
+            "name": "rank_cb130477EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_cb130477EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "16": {
+            "name": "rank_sd130343EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_sd130343EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "19": {
+            "name": "rank_jm100109EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_jm100109EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "18": {
+            "name": "rank_rb130313EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_rb130313EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "31": {
+            "name": "rank_rl130571EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_rl130571EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "30": {
+            "name": "rank_wl130316EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=48:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/decode_source_label_rank_wl130316EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_alpha_0.001_0.3_allwin_allabels.py"
+            ], 
+            "disposal_timeout": 168
+        }
+    }, 
+    "serialized_file_transfers": {}, 
+    "serialized_groups": {}, 
+    "dependencies": [], 
+    "groups": [], 
+    "serialized_shared_res_paths": {}, 
+    "root_group": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31
+    ]
+}

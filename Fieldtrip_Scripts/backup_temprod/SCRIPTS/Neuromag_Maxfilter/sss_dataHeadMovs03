@@ -1,0 +1,8 @@
+#!/bin/tcsh
+set raw_dir = /neurospin/meg_tmp/2009_vvw/2009_temprod/s03
+set Subject = s03
+cd $raw_dir
+foreach i(1  2  3  4  5  6)
+ls raw_*run$i.fif
+show_fiff -vt 222 raw_*run$i.fif > /neurospin/meg_tmp/2009_vvw/2009_temprod/sss_dataPos_$Subject"_run"$i.txt
+end

@@ -1,0 +1,3 @@
+ ln -s /neurospin/acquisition/neuromag/data/mtt_meg/empty_room/130719/test_trig_photo.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/test2/testtriggerphoto.fif
+
+

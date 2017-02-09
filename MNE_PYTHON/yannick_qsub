@@ -1,0 +1,27 @@
+
+
+see /home/ys218403/Python/search/brainlet/brainlet/examples/decoding_new_bags_dispatch.py
+
+qsub -I // pour avoir un noeud
+
+
+
+job_template = """
+#!/bin/bash
+#PBS -S /bin/bash
+#PBS -N %(job_name)s
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=72:00:00
+#PBS -d %(job_dir)s
+#PBS -q Cati_LowPrio
+
+python %(script)s %(job_id)s %(mask_id)s %(roi_id)s
+"""
+
+
+
+pour lancer:
+qsub name_file 
+
+
+

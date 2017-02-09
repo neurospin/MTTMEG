@@ -1,0 +1,7 @@
+freesurfer_init
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl/spmT_0005.img --src_type analyze  --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SPROJ_SJ_rh.mgz --regheader fsaverage --hemi rh --projfrac 0
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl/spmT_0005.img --src_type analyze  --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SPROJ_SJ_lh.mgz --regheader fsaverage --hemi lh --projfrac 0

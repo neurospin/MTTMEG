@@ -1,0 +1,84 @@
+{
+    "jobs": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4
+    ], 
+    "name": null, 
+    "serialized_jobs": {
+        "1": {
+            "name": "_Et_all_sd130343_Es_all_sd130343dSPM_", 
+            "parallel_job_info": null, 
+            "native_specification": null, 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_SOURCE/Source__Et_all_sd130343_Es_all_sd130343dSPM_.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "0": {
+            "name": "_Qt_all_sd130343_Qs_all_sd130343dSPM_", 
+            "parallel_job_info": null, 
+            "native_specification": null, 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_SOURCE/Source__Qt_all_sd130343_Qs_all_sd130343dSPM_.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "3": {
+            "name": "_QsWest_sd130343_QsPar_sd130343_QsEast_sd130343dSPM_", 
+            "parallel_job_info": null, 
+            "native_specification": null, 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_SOURCE/Source__QsWest_sd130343_QsPar_sd130343_QsEast_sd130343dSPM_.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "2": {
+            "name": "_QtPast_sd130343_QtPre_sd130343_QtFut_sd130343dSPM_", 
+            "parallel_job_info": null, 
+            "native_specification": null, 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_SOURCE/Source__QtPast_sd130343_QtPre_sd130343_QtFut_sd130343dSPM_.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "4": {
+            "name": "_EtPast_sd130343_EtPre_sd130343_EtFut_sd130343dSPM_", 
+            "parallel_job_info": null, 
+            "native_specification": null, 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_SOURCE/Source__EtPast_sd130343_EtPre_sd130343_EtFut_sd130343dSPM_.py"
+            ], 
+            "disposal_timeout": 168
+        }
+    }, 
+    "serialized_file_transfers": {}, 
+    "serialized_groups": {}, 
+    "dependencies": [], 
+    "groups": [], 
+    "serialized_shared_res_paths": {}, 
+    "root_group": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4
+    ]
+}

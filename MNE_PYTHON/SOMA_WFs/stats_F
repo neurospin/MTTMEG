@@ -1,0 +1,282 @@
+{
+    "jobs": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18
+    ], 
+    "name": null, 
+    "serialized_temporary_paths": {}, 
+    "serialized_barriers": {}, 
+    "serialized_jobs": {
+        "11": {
+            "name": "SubjSourceFStats_mb140004_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_mb140004_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "10": {
+            "name": "SubjSourceFStats_sl130503_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_sl130503_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "13": {
+            "name": "SubjSourceFStats_dm130250_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_dm130250_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "12": {
+            "name": "SubjSourceFStats_mp140019_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_mp140019_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "15": {
+            "name": "SubjSourceFStats_wl130316_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_wl130316_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "14": {
+            "name": "SubjSourceFStats_hr130504_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_hr130504_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "17": {
+            "name": "SubjSourceFStats_sg120518_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_sg120518_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "16": {
+            "name": "SubjSourceFStats_rl130571_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_rl130571_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "18": {
+            "name": "SubjSourceFStats_mm130405_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_mm130405_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "1": {
+            "name": "SubjSourceFStats_cb130477_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_cb130477_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "0": {
+            "name": "SubjSourceFStats_sd130343_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_sd130343_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "3": {
+            "name": "SubjSourceFStats_jm100042_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_jm100042_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "2": {
+            "name": "SubjSourceFStats_rb130313_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_rb130313_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "5": {
+            "name": "SubjSourceFStats_sb120316_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_sb120316_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "4": {
+            "name": "SubjSourceFStats_jm100109_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_jm100109_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "7": {
+            "name": "SubjSourceFStats_lm130479_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_lm130479_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "6": {
+            "name": "SubjSourceFStats_tk130502_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_tk130502_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "9": {
+            "name": "SubjSourceFStats_ma100253_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_ma100253_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "8": {
+            "name": "SubjSourceFStats_ms130534_EtPast-EtPre-EtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=0:59:00, -l nodes=1:ppn=4", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_STATS/stats_FSubjSourceFStats_ms130534_EtPast-EtPre-EtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }
+    }, 
+    "serialized_file_transfers": {}, 
+    "serialized_groups": {}, 
+    "dependencies": [], 
+    "groups": [], 
+    "serialized_shared_res_paths": {}, 
+    "root_group": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18
+    ]
+}

@@ -1,0 +1,37 @@
+# GLM data
+DATA <- read.table("C:\\TEMPROD\\DATA\\NEW\\ForR\\Grads1_7-14_AllEstimation.txt",header = T)
+
+FreqPeaks   <- (DATA$FreqPeaks)
+PowPeaks    <- (DATA$PowPeaks)
+SlopeCoeff  <- (DATA$SlopeCoeff)
+InvDur      <- factor(DATA$InvDur)
+RealAcc     <- factor(DATA$RealAcc)
+MedDev      <- factor(DATA$MedDev)
+InvDur      <- (DATA$AccOff)
+RealAcc     <- (DATA$DurOff)
+MedDev      <- (DATA$MedDevOff)
+
+model1 <- aov(DATA1[,1]~(SOA*TASK) + Error(SUB/(SOA*TASK)))
+summary(model1)
+
+# plot interaction
+interaction.plot(SOA,TASK,DATA1[,1])
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# QUARTILE DATA MEAN AND STD ESTIMATES
+DATA <- read.table("C:\\TEMPROD\\DATA\\NEW\\ForR\\QUARTILES.txt",header = T)
+
+QM         <- (DATA$QM)
+QS         <- (DATA$QS)
+CV         <- (DATA$CV)
+QUARTILES  <- factor(DATA$QUARTILES)
+SUBJECT    <- factor(DATA$SUBJECT)
+
+model1 <- aov(QM ~(QUARTILES) + Error(SUBJECT/(QUARTILES)))
+summary(model1)
+
+model1 <- aov(QS ~(QUARTILES) + Error(SUBJECT/(QUARTILES)))
+summary(model1)
+
+model1 <- aov(CV ~(QUARTILES) + Error(SUBJECT/(QUARTILES)))
+summary(model1)

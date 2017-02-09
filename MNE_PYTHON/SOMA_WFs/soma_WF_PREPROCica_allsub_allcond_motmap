@@ -1,0 +1,268 @@
+{
+    "jobs": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17
+    ], 
+    "name": null, 
+    "serialized_temporary_paths": {}, 
+    "serialized_barriers": {}, 
+    "serialized_jobs": {
+        "11": {
+            "name": "mb140004_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapmb140004_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "10": {
+            "name": "sl130503_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapsl130503_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "13": {
+            "name": "dm130250_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapdm130250_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "12": {
+            "name": "mp140019_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapmp140019_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "15": {
+            "name": "wl130316_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapwl130316_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "14": {
+            "name": "hr130504_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmaphr130504_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "17": {
+            "name": "sg120518_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapsg120518_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "16": {
+            "name": "rl130571_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmaprl130571_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "1": {
+            "name": "cb130477_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapcb130477_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "0": {
+            "name": "sd130343_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapsd130343_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "3": {
+            "name": "jm100042_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapjm100042_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "2": {
+            "name": "rb130313_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmaprb130313_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "5": {
+            "name": "sb120316_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapsb120316_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "4": {
+            "name": "jm100109_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapjm100109_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "7": {
+            "name": "lm130479_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmaplm130479_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "6": {
+            "name": "tk130502_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmaptk130502_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "9": {
+            "name": "ma100253_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapma100253_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "8": {
+            "name": "ms130534_RelWestG_intmap_RelEastG_intmap", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=8:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_ica_motmapms130534_RelWestG_intmap_RelEastG_intmap.py"
+            ], 
+            "disposal_timeout": 168
+        }
+    }, 
+    "serialized_file_transfers": {}, 
+    "serialized_groups": {}, 
+    "dependencies": [], 
+    "groups": [], 
+    "serialized_shared_res_paths": {}, 
+    "root_group": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17
+    ]
+}

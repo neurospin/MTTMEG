@@ -1,0 +1,966 @@
+{
+    "jobs": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31, 
+        32, 
+        33, 
+        34, 
+        35, 
+        36, 
+        37, 
+        38, 
+        39, 
+        40, 
+        41, 
+        42, 
+        43, 
+        44, 
+        45, 
+        46, 
+        47, 
+        48, 
+        49, 
+        50, 
+        51, 
+        52, 
+        53, 
+        54, 
+        55, 
+        56, 
+        57, 
+        58, 
+        59, 
+        60, 
+        61, 
+        62, 
+        63, 
+        64, 
+        65, 
+        66, 
+        67
+    ], 
+    "name": null, 
+    "serialized_jobs": {
+        "30": {
+            "name": "lm130479QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STClm130479QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "51": {
+            "name": "mp140019QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCmp140019QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "22": {
+            "name": "sb120316QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsb120316QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "36": {
+            "name": "ma100253EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCma100253EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "60": {
+            "name": "wl130316EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCwl130316EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "61": {
+            "name": "wl130316EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCwl130316EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "62": {
+            "name": "wl130316QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCwl130316QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "63": {
+            "name": "wl130316QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCwl130316QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "64": {
+            "name": "rl130571EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCrl130571EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "65": {
+            "name": "rl130571EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCrl130571EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "66": {
+            "name": "rl130571QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCrl130571QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "67": {
+            "name": "rl130571QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCrl130571QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "32": {
+            "name": "ms130534EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCms130534EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "42": {
+            "name": "sl130503QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsl130503QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "23": {
+            "name": "sb120316QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsb120316QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "24": {
+            "name": "tk130502EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCtk130502EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "25": {
+            "name": "tk130502EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCtk130502EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "26": {
+            "name": "tk130502QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCtk130502QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "27": {
+            "name": "tk130502QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCtk130502QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "20": {
+            "name": "sb120316EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsb120316EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "21": {
+            "name": "sb120316EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsb120316EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "48": {
+            "name": "mp140019EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCmp140019EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "49": {
+            "name": "mp140019EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCmp140019EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "46": {
+            "name": "mb140004QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCmb140004QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "47": {
+            "name": "mb140004QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCmb140004QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "44": {
+            "name": "mb140004EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCmb140004EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "45": {
+            "name": "mb140004EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCmb140004EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "28": {
+            "name": "lm130479EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STClm130479EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "43": {
+            "name": "sl130503QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsl130503QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "40": {
+            "name": "sl130503EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsl130503EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "41": {
+            "name": "sl130503EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsl130503EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "1": {
+            "name": "sd130343EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsd130343EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "0": {
+            "name": "sd130343EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsd130343EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "3": {
+            "name": "sd130343QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsd130343QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "2": {
+            "name": "sd130343QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCsd130343QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "5": {
+            "name": "cb130477EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCcb130477EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "4": {
+            "name": "cb130477EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCcb130477EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "7": {
+            "name": "cb130477QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCcb130477QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "6": {
+            "name": "cb130477QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCcb130477QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "9": {
+            "name": "rb130313EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCrb130313EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "8": {
+            "name": "rb130313EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCrb130313EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "52": {
+            "name": "dm130250EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCdm130250EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "35": {
+            "name": "ms130534QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCms130534QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "39": {
+            "name": "ma100253QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCma100253QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "57": {
+            "name": "hr130504EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STChr130504EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "12": {
+            "name": "jm100042EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCjm100042EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "59": {
+            "name": "hr130504QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STChr130504QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "29": {
+            "name": "lm130479EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STClm130479EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "58": {
+            "name": "hr130504QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STChr130504QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "11": {
+            "name": "rb130313QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCrb130313QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "10": {
+            "name": "rb130313QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCrb130313QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "13": {
+            "name": "jm100042EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCjm100042EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "38": {
+            "name": "ma100253QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCma100253QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "15": {
+            "name": "jm100042QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCjm100042QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "14": {
+            "name": "jm100042QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCjm100042QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "17": {
+            "name": "jm100109EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCjm100109EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "16": {
+            "name": "jm100109EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCjm100109EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "55": {
+            "name": "dm130250QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCdm130250QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "54": {
+            "name": "dm130250QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCdm130250QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "31": {
+            "name": "lm130479QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STClm130479QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "56": {
+            "name": "hr130504EVS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STChr130504EVS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "37": {
+            "name": "ma100253EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCma100253EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "50": {
+            "name": "mp140019QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCmp140019QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "53": {
+            "name": "dm130250EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCdm130250EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "34": {
+            "name": "ms130534QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCms130534QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "19": {
+            "name": "jm100109QTS", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCjm100109QTS.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "18": {
+            "name": "jm100109QTT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCjm100109QTT.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "33": {
+            "name": "ms130534EVT", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=2:00:00, -l nodes=1:ppn=2", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STCms130534EVT.py"
+            ], 
+            "disposal_timeout": 168
+        }
+    }, 
+    "serialized_file_transfers": {}, 
+    "serialized_groups": {}, 
+    "dependencies": [], 
+    "groups": [], 
+    "serialized_shared_res_paths": {}, 
+    "root_group": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31, 
+        32, 
+        33, 
+        34, 
+        35, 
+        36, 
+        37, 
+        38, 
+        39, 
+        40, 
+        41, 
+        42, 
+        43, 
+        44, 
+        45, 
+        46, 
+        47, 
+        48, 
+        49, 
+        50, 
+        51, 
+        52, 
+        53, 
+        54, 
+        55, 
+        56, 
+        57, 
+        58, 
+        59, 
+        60, 
+        61, 
+        62, 
+        63, 
+        64, 
+        65, 
+        66, 
+        67
+    ]
+}

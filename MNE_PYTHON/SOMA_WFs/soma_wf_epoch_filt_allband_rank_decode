@@ -1,0 +1,1358 @@
+{
+    "jobs": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31, 
+        32, 
+        33, 
+        34, 
+        35, 
+        36, 
+        37, 
+        38, 
+        39, 
+        40, 
+        41, 
+        42, 
+        43, 
+        44, 
+        45, 
+        46, 
+        47, 
+        48, 
+        49, 
+        50, 
+        51, 
+        52, 
+        53, 
+        54, 
+        55, 
+        56, 
+        57, 
+        58, 
+        59, 
+        60, 
+        61, 
+        62, 
+        63, 
+        64, 
+        65, 
+        66, 
+        67, 
+        68, 
+        69, 
+        70, 
+        71, 
+        72, 
+        73, 
+        74, 
+        75, 
+        76, 
+        77, 
+        78, 
+        79, 
+        80, 
+        81, 
+        82, 
+        83, 
+        84, 
+        85, 
+        86, 
+        87, 
+        88, 
+        89, 
+        90, 
+        91, 
+        92, 
+        93, 
+        94, 
+        95
+    ], 
+    "name": null, 
+    "serialized_jobs": {
+        "24": {
+            "name": "ma100253_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ma100253_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "25": {
+            "name": "sl130503_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sl130503_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "26": {
+            "name": "mb140004_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mb140004_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "27": {
+            "name": "mp140019_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mp140019_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "20": {
+            "name": "sb120316_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sb120316_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "21": {
+            "name": "tk130502_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_tk130502_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "22": {
+            "name": "lm130479_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_lm130479_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "23": {
+            "name": "ms130534_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ms130534_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "28": {
+            "name": "dm130250_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_dm130250_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "29": {
+            "name": "hr130504_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_hr130504_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "0": {
+            "name": "sd130343_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sd130343_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "4": {
+            "name": "sb120316_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sb120316_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "8": {
+            "name": "ma100253_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ma100253_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "59": {
+            "name": "mp140019_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mp140019_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "58": {
+            "name": "mb140004_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mb140004_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "55": {
+            "name": "ms130534_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ms130534_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "54": {
+            "name": "lm130479_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_lm130479_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "57": {
+            "name": "sl130503_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sl130503_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "56": {
+            "name": "ma100253_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ma100253_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "51": {
+            "name": "jm100109_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_jm100109_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "50": {
+            "name": "rb130313_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rb130313_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "53": {
+            "name": "tk130502_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_tk130502_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "52": {
+            "name": "sb120316_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sb120316_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "88": {
+            "name": "ma100253_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ma100253_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "89": {
+            "name": "sl130503_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sl130503_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "82": {
+            "name": "rb130313_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rb130313_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "83": {
+            "name": "jm100109_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_jm100109_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "80": {
+            "name": "sd130343_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sd130343_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "81": {
+            "name": "cb130477_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_cb130477_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "86": {
+            "name": "lm130479_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_lm130479_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "87": {
+            "name": "ms130534_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ms130534_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "84": {
+            "name": "sb120316_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sb120316_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "85": {
+            "name": "tk130502_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_tk130502_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "3": {
+            "name": "jm100109_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_jm100109_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "7": {
+            "name": "ms130534_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ms130534_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "39": {
+            "name": "ms130534_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ms130534_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "38": {
+            "name": "lm130479_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_lm130479_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "33": {
+            "name": "cb130477_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_cb130477_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "32": {
+            "name": "sd130343_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sd130343_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "31": {
+            "name": "rl130571_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rl130571_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "30": {
+            "name": "wl130316_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_wl130316_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "37": {
+            "name": "tk130502_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_tk130502_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "36": {
+            "name": "sb120316_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sb120316_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "35": {
+            "name": "jm100109_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_jm100109_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "34": {
+            "name": "rb130313_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rb130313_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "60": {
+            "name": "dm130250_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_dm130250_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "61": {
+            "name": "hr130504_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_hr130504_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "62": {
+            "name": "wl130316_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_wl130316_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "63": {
+            "name": "rl130571_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rl130571_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "64": {
+            "name": "sd130343_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sd130343_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "65": {
+            "name": "cb130477_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_cb130477_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "66": {
+            "name": "rb130313_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rb130313_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "67": {
+            "name": "jm100109_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_jm100109_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "68": {
+            "name": "sb120316_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sb120316_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "69": {
+            "name": "tk130502_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_tk130502_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "2": {
+            "name": "rb130313_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rb130313_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "6": {
+            "name": "lm130479_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_lm130479_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "91": {
+            "name": "mp140019_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mp140019_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "90": {
+            "name": "mb140004_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mb140004_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "93": {
+            "name": "hr130504_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_hr130504_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "92": {
+            "name": "dm130250_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_dm130250_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "95": {
+            "name": "rl130571_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rl130571_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "94": {
+            "name": "wl130316_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_wl130316_EsWest_EsPar_EsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "11": {
+            "name": "mp140019_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mp140019_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "10": {
+            "name": "mb140004_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mb140004_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "13": {
+            "name": "hr130504_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_hr130504_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "12": {
+            "name": "dm130250_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_dm130250_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "15": {
+            "name": "rl130571_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rl130571_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "14": {
+            "name": "wl130316_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_wl130316_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "17": {
+            "name": "cb130477_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_cb130477_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "16": {
+            "name": "sd130343_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sd130343_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "19": {
+            "name": "jm100109_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_jm100109_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "18": {
+            "name": "rb130313_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rb130313_EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "48": {
+            "name": "sd130343_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sd130343_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "49": {
+            "name": "cb130477_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_cb130477_QsWest_QsPar_QsEast_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "46": {
+            "name": "wl130316_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_wl130316_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "47": {
+            "name": "rl130571_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rl130571_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "44": {
+            "name": "dm130250_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_dm130250_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "45": {
+            "name": "hr130504_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_hr130504_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "42": {
+            "name": "mb140004_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mb140004_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "43": {
+            "name": "mp140019_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mp140019_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "40": {
+            "name": "ma100253_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ma100253_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "41": {
+            "name": "sl130503_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sl130503_QtPast_QtPre_QtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "1": {
+            "name": "cb130477_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_cb130477_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "5": {
+            "name": "tk130502_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_tk130502_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "9": {
+            "name": "sl130503_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sl130503_EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "77": {
+            "name": "hr130504_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_hr130504_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "76": {
+            "name": "dm130250_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_dm130250_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "75": {
+            "name": "mp140019_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mp140019_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "74": {
+            "name": "mb140004_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_mb140004_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "73": {
+            "name": "sl130503_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_sl130503_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "72": {
+            "name": "ma100253_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ma100253_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "71": {
+            "name": "ms130534_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_ms130534_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "70": {
+            "name": "lm130479_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_lm130479_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "79": {
+            "name": "rl130571_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_rl130571_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "78": {
+            "name": "wl130316_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_RANK/epochs&rank_wl130316_EtPast_EtPre_EtFut_allWindows_allAlphas_0.5-30Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }
+    }, 
+    "serialized_file_transfers": {}, 
+    "serialized_groups": {}, 
+    "dependencies": [], 
+    "groups": [], 
+    "serialized_shared_res_paths": {}, 
+    "root_group": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31, 
+        32, 
+        33, 
+        34, 
+        35, 
+        36, 
+        37, 
+        38, 
+        39, 
+        40, 
+        41, 
+        42, 
+        43, 
+        44, 
+        45, 
+        46, 
+        47, 
+        48, 
+        49, 
+        50, 
+        51, 
+        52, 
+        53, 
+        54, 
+        55, 
+        56, 
+        57, 
+        58, 
+        59, 
+        60, 
+        61, 
+        62, 
+        63, 
+        64, 
+        65, 
+        66, 
+        67, 
+        68, 
+        69, 
+        70, 
+        71, 
+        72, 
+        73, 
+        74, 
+        75, 
+        76, 
+        77, 
+        78, 
+        79, 
+        80, 
+        81, 
+        82, 
+        83, 
+        84, 
+        85, 
+        86, 
+        87, 
+        88, 
+        89, 
+        90, 
+        91, 
+        92, 
+        93, 
+        94, 
+        95
+    ]
+}

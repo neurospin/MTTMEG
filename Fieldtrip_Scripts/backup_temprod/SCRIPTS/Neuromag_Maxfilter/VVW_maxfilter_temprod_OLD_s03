@@ -1,0 +1,70 @@
+#!/bin/tcsh
+
+# This script serves as a template for batch maxfilter processing, tailor it to your needs. 
+# It also illustrates one simple pipeline for event-related fields analysis
+
+# STEP 1.
+# create symbolic links to your raw data in your directory fo instance:
+# ln -s /neurospin/acquisition/neuromag/data/MYSTUDY/MYSUBJECT/DATE/DATA_raw.fif /neurospin/meg_tmp/MYSTUDY/MYRAWDATA
+
+# STEP 2.
+# Browse your raw data using graph; take note of all noisy sensors, possible jumps etc
+
+# STEP 3.
+# if you have not used cHPI, determine which head position you wish to use for your runs
+# using
+# /neurospin/local/neuromag/bin/util/show_fiff -vt 222 /neurospin/meg_tmp/MYSTUDY/MYRAWDATA/DATA_raw.fif
+# This step is described in greater details in the wiki
+
+
+# STEP 4.
+# set paths and directories  
+set study_dir = /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/OLD/
+set raw_dir   = /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/OLD/Raw_s03/
+set sss_dir   = /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/OLD/Trans_sss_s03/
+set HeadPosf  = /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/OLD/Raw_s03/s03_run3_raw.fif
+
+cd $raw_dir
+
+foreach f(`ls *raw*.fif`) 
+	
+	scp $f $sss_dir$f
+	cd $sss_dir
+	
+	#print "Maxfiltering on" $f "w/ AUTOBAD & HEADTRANSFORM ON"
+	#maxfilter -v -f $f -bad 0531 1211 1212 1213 -autobad 20 -badlimit 7 -frame head -origin 0 0 40 -trans $HeadPosf
+	
+	print "Maxfiltering on" $f "w/ AUTOBAD"
+        maxfilter -v -f $f -bad 0531 1211 1212 1213 -autobad 20 -badlimit 7 -frame head -origin 0 0 40
+	
+	#rm $f
+	cd $raw_dir
+end
+
+
+
+
+# STEP 5. 
+# clean up heart and eye artefacts using PCA in Graph. 
+# see information in /neurospin/meg_tmp/tools_tmp/graph
+
+# STEP 6.
+# define conditions for averaging in an *.ave file
+# for instance, grand averageing across runs using mne and a predefined av_specs file:
+
+# mne
+# mne_process_raw --raw *run1_trans_sss.fif --raw *run2_trans_sss.fif --raw *run3_trans_sss.fif --raw *run4_trans_sss.fif --filteroff --projon --digtrig STI101 --ave $av_specs --gave allruns_av.fif
+
+# use mne_browse_raw to see the raw and average results (gui interface)
+                                                                                                                                                                # interface with brainstorm
+
+
+
+
+
+
+
+
+
+
+

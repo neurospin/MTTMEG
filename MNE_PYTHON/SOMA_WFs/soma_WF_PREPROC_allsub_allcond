@@ -1,0 +1,154 @@
+{
+    "jobs": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9
+    ], 
+    "name": null, 
+    "serialized_jobs": {
+        "1": {
+            "name": "sd130343_QsWest_QsPar_QsEast", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1sd130343_QsWest_QsPar_QsEast.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "0": {
+            "name": "sd130343_QtPast_QtPre_QtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1sd130343_QtPast_QtPre_QtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "3": {
+            "name": "jm100109_QsWest_QsPar_QsEast", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1jm100109_QsWest_QsPar_QsEast.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "2": {
+            "name": "jm100109_QtPast_QtPre_QtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1jm100109_QtPast_QtPre_QtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "5": {
+            "name": "ma100253_QsWest_QsPar_QsEast", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1ma100253_QsWest_QsPar_QsEast.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "4": {
+            "name": "ma100253_QtPast_QtPre_QtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1ma100253_QtPast_QtPre_QtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "7": {
+            "name": "mb140004_QsWest_QsPar_QsEast", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1mb140004_QsWest_QsPar_QsEast.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "6": {
+            "name": "mb140004_QtPast_QtPre_QtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1mb140004_QtPast_QtPre_QtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "9": {
+            "name": "wl130316_QsWest_QsPar_QsEast", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1wl130316_QsWest_QsPar_QsEast.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "8": {
+            "name": "wl130316_QtPast_QtPre_QtFut", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=4:00:00 -l nodes=1:ppn=8", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_PREPROC/Preproc_STC1wl130316_QtPast_QtPre_QtFut.py"
+            ], 
+            "disposal_timeout": 168
+        }
+    }, 
+    "serialized_file_transfers": {}, 
+    "serialized_groups": {}, 
+    "dependencies": [], 
+    "groups": [], 
+    "serialized_shared_res_paths": {}, 
+    "root_group": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9
+    ]
+}

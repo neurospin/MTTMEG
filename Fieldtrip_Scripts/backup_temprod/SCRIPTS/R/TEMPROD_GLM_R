@@ -1,0 +1,153 @@
+# Statistical testing on temprod GLM betas
+
+DATA <- read.table("C:\\TEMPROD\\DATA\\NEW\\ForR\\all_GLM_data.txt",header = T)
+
+BfreqvsDUR  <- DATA$BfreqvsDUR
+BfreqvsMED  <- DATA$BfreqvsMED 
+BfreqvsACC  <- DATA$BfreqvsACC
+BpowvsDUR   <- DATA$BpowvsDUR 
+BpowvsMED   <- DATA$BpowvsMED  
+BpowvsACC   <- DATA$BpowvsACC  
+BslopevsDUR <- DATA$BslopevsDUR
+BslopevsMED <- DATA$BslopevsMED 
+BslopevsACC <- DATA$BslopevsACC
+SUB         <- factor(DATA$SUB) 
+COND        <- factor(DATA$COND)    
+CHAN        <- DATA$CHAN     
+FREQBAND    <- DATA$FREQBAND  
+
+cond_M_2.5Hz        <- COND[CHAN == 1 & FREQBAND == 1]
+cond_G1_2.5Hz       <- COND[CHAN == 2 & FREQBAND == 1]
+cond_G2_2.5Hz       <- COND[CHAN == 3 & FREQBAND == 1]
+cond_M_7.14Hz       <- COND[CHAN == 1 & FREQBAND == 2]
+cond_G1_7.14Hz      <- COND[CHAN == 2 & FREQBAND == 2]
+cond_G2_7.14Hz      <- COND[CHAN == 3 & FREQBAND == 2]
+cond_M_15.30Hz      <- COND[CHAN == 1 & FREQBAND == 3]
+cond_G1_15.30Hz     <- COND[CHAN == 2 & FREQBAND == 3]
+cond_G2_15.30Hz     <- COND[CHAN == 3 & FREQBAND == 3]
+sub_M_2.5Hz         <- SUB[CHAN == 1 & FREQBAND == 1]
+sub_G1_2.5Hz        <- SUB[CHAN == 2 & FREQBAND == 1]
+sub_G2_2.5Hz        <- SUB[CHAN == 3 & FREQBAND == 1]
+sub_M_7.14Hz        <- SUB[CHAN == 1 & FREQBAND == 2]
+sub_G1_7.14Hz       <- SUB[CHAN == 2 & FREQBAND == 2]
+sub_G2_7.14Hz       <- SUB[CHAN == 3 & FREQBAND == 2]
+sub_M_15.30Hz       <- SUB[CHAN == 1 & FREQBAND == 3]
+sub_G1_15.30Hz      <- SUB[CHAN == 2 & FREQBAND == 3]
+sub_G2_15.30Hz      <- SUB[CHAN == 3 & FREQBAND == 3]
+
+# FREQUENCY at 2-5HZ
+
+BfreqvsDUR_M_2.5Hz  <- BfreqvsDUR[CHAN == 1 & FREQBAND == 1]
+BfreqvsDUR_G1_2.5Hz <- BfreqvsDUR[CHAN == 2 & FREQBAND == 1]
+BfreqvsDUR_G2_2.5Hz <- BfreqvsDUR[CHAN == 3 & FREQBAND == 1]
+BfreqvsMED_M_2.5Hz  <- BfreqvsMED[CHAN == 1 & FREQBAND == 1]
+BfreqvsMED_G1_2.5Hz <- BfreqvsMED[CHAN == 2 & FREQBAND == 1]
+BfreqvsMED_G2_2.5Hz <- BfreqvsMED[CHAN == 3 & FREQBAND == 1]
+BfreqvsACC_M_2.5Hz  <- BfreqvsACC[CHAN == 1 & FREQBAND == 1]
+BfreqvsACC_G1_2.5Hz <- BfreqvsACC[CHAN == 2 & FREQBAND == 1]
+BfreqvsACC_G2_2.5Hz <- BfreqvsACC[CHAN == 3 & FREQBAND == 1]
+
+model1 <- aov(BfreqvsDUR_M_2.5Hz ~ cond_M_2.5Hz + Error(sub_M_2.5Hz/cond_M_2.5Hz))
+model2 <- aov(BfreqvsDUR_G1_2.5Hz ~ cond_G1_2.5Hz + Error(sub_G1_2.5Hz/cond_G1_2.5Hz))
+model3 <- aov(BfreqvsDUR_G2_2.5Hz ~ cond_G2_2.5Hz + Error(sub_G2_2.5Hz/cond_G2_2.5Hz))
+model4 <- aov(BfreqvsMED_M_2.5Hz ~ cond_M_2.5Hz + Error(sub_M_2.5Hz/cond_M_2.5Hz))
+model5 <- aov(BfreqvsMED_G1_2.5Hz ~ cond_G1_2.5Hz + Error(sub_G1_2.5Hz/cond_G1_2.5Hz))
+model6 <- aov(BfreqvsMED_G2_2.5Hz ~ cond_G2_2.5Hz + Error(sub_G2_2.5Hz/cond_G2_2.5Hz))
+model7 <- aov(BfreqvsACC_M_2.5Hz ~ cond_M_2.5Hz + Error(sub_M_2.5Hz/cond_M_2.5Hz))
+model8 <- aov(BfreqvsACC_G1_2.5Hz ~ cond_G1_2.5Hz + Error(sub_G1_2.5Hz/cond_G1_2.5Hz))
+model9 <- aov(BfreqvsACC_G2_2.5Hz ~ cond_G2_2.5Hz + Error(sub_G2_2.5Hz/cond_G2_2.5Hz))
+
+summary(model1)
+summary(model2)
+summary(model3)
+summary(model4)
+summary(model5)
+summary(model6)
+summary(model7)
+summary(model8)
+summary(model9)
+
+# FREQUENCY at 7-14HZ
+
+BfreqvsDUR_M_7.14Hz  <- BfreqvsDUR[CHAN == 1 & FREQBAND == 2]
+BfreqvsDUR_G1_7.14Hz <- BfreqvsDUR[CHAN == 2 & FREQBAND == 2]
+BfreqvsDUR_G2_7.14Hz <- BfreqvsDUR[CHAN == 3 & FREQBAND == 2]
+BfreqvsMED_M_7.14Hz  <- BfreqvsMED[CHAN == 1 & FREQBAND == 2]
+BfreqvsMED_G1_7.14Hz <- BfreqvsMED[CHAN == 2 & FREQBAND == 2]
+BfreqvsMED_G2_7.14Hz <- BfreqvsMED[CHAN == 3 & FREQBAND == 2]
+BfreqvsACC_M_7.14Hz  <- BfreqvsACC[CHAN == 1 & FREQBAND == 2]
+BfreqvsACC_G1_7.14Hz <- BfreqvsACC[CHAN == 2 & FREQBAND == 2]
+BfreqvsACC_G2_7.14Hz <- BfreqvsACC[CHAN == 3 & FREQBAND == 2]
+
+model1 <- aov(BfreqvsDUR_M_7.14Hz ~ cond_M_7.14Hz + Error(sub_M_7.14Hz/cond_M_7.14Hz))
+model2 <- aov(BfreqvsDUR_G1_7.14Hz ~ cond_G1_7.14Hz + Error(sub_G1_7.14Hz/cond_G1_7.14Hz))
+model3 <- aov(BfreqvsDUR_G2_7.14Hz ~ cond_G2_7.14Hz + Error(sub_G2_7.14Hz/cond_G2_7.14Hz))
+model4 <- aov(BfreqvsMED_M_7.14Hz ~ cond_M_7.14Hz + Error(sub_M_7.14Hz/cond_M_7.14Hz))
+model5 <- aov(BfreqvsMED_G1_7.14Hz ~ cond_G1_7.14Hz + Error(sub_G1_7.14Hz/cond_G1_7.14Hz))
+model6 <- aov(BfreqvsMED_G2_7.14Hz ~ cond_G2_7.14Hz + Error(sub_G2_7.14Hz/cond_G2_7.14Hz))
+model7 <- aov(BfreqvsACC_M_7.14Hz ~ cond_M_7.14Hz + Error(sub_M_7.14Hz/cond_M_7.14Hz))
+model8 <- aov(BfreqvsACC_G1_7.14Hz ~ cond_G1_7.14Hz + Error(sub_G1_7.14Hz/cond_G1_7.14Hz))
+model9 <- aov(BfreqvsACC_G2_7.14Hz ~ cond_G2_7.14Hz + Error(sub_G2_7.14Hz/cond_G2_7.14Hz))
+
+summary(model1)
+summary(model2)
+summary(model3)
+summary(model4)
+summary(model5)
+summary(model6)
+summary(model7)
+summary(model8)
+summary(model9)
+
+interaction.plot(cond_M_7.14Hz, sub_M_7.14Hz, BfreqvsDUR_M_7.14Hz)
+interaction.plot(sub_M_7.14Hz, cond_M_7.14Hz, BfreqvsDUR_M_7.14Hz)
+
+# FREQUENCY at 15-30HZ
+
+BfreqvsDUR_M_15.30Hz  <- BfreqvsDUR[CHAN == 1 & FREQBAND == 3]
+BfreqvsDUR_G1_15.30Hz <- BfreqvsDUR[CHAN == 2 & FREQBAND == 3]
+BfreqvsDUR_G2_15.30Hz <- BfreqvsDUR[CHAN == 3 & FREQBAND == 3]
+BfreqvsMED_M_15.30Hz  <- BfreqvsMED[CHAN == 1 & FREQBAND == 3]
+BfreqvsMED_G1_15.30Hz <- BfreqvsMED[CHAN == 2 & FREQBAND == 3]
+BfreqvsMED_G2_15.30Hz <- BfreqvsMED[CHAN == 3 & FREQBAND == 3]
+BfreqvsACC_M_15.30Hz  <- BfreqvsACC[CHAN == 1 & FREQBAND == 3]
+BfreqvsACC_G1_15.30Hz <- BfreqvsACC[CHAN == 2 & FREQBAND == 3]
+BfreqvsACC_G2_15.30Hz <- BfreqvsACC[CHAN == 3 & FREQBAND == 3]
+
+model1 <- aov(BfreqvsDUR_M_15.30Hz ~ cond_M_15.30Hz + Error(sub_M_15.30Hz/cond_M_15.30Hz))
+model2 <- aov(BfreqvsDUR_G1_15.30Hz ~ cond_G1_15.30Hz + Error(sub_G1_15.30Hz/cond_G1_15.30Hz))
+model3 <- aov(BfreqvsDUR_G2_15.30Hz ~ cond_G2_15.30Hz + Error(sub_G2_15.30Hz/cond_G2_15.30Hz))
+model4 <- aov(BfreqvsMED_M_15.30Hz ~ cond_M_15.30Hz + Error(sub_M_15.30Hz/cond_M_15.30Hz))
+model5 <- aov(BfreqvsMED_G1_15.30Hz ~ cond_G1_15.30Hz + Error(sub_G1_15.30Hz/cond_G1_15.30Hz))
+model6 <- aov(BfreqvsMED_G2_15.30Hz ~ cond_G2_15.30Hz + Error(sub_G2_15.30Hz/cond_G2_15.30Hz))
+model7 <- aov(BfreqvsACC_M_15.30Hz ~ cond_M_15.30Hz + Error(sub_M_15.30Hz/cond_M_15.30Hz))
+model8 <- aov(BfreqvsACC_G1_15.30Hz ~ cond_G1_15.30Hz + Error(sub_G1_15.30Hz/cond_G1_15.30Hz))
+model9 <- aov(BfreqvsACC_G2_15.30Hz ~ cond_G2_15.30Hz + Error(sub_G2_15.30Hz/cond_G2_15.30Hz))
+
+summary(model1)
+summary(model2)
+summary(model3)
+summary(model4)
+summary(model5)
+summary(model6)
+summary(model7)
+summary(model8)
+summary(model9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

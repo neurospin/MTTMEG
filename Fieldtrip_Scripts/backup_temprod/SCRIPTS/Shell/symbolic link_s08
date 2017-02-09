@@ -1,0 +1,14 @@
+ ln -s /neurospin/acquisition/neuromag/data/temprod/jh_100405/110506/run1_rest_06052011.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s08/s08_run1.fif
+
+ln -s /neurospin/acquisition/neuromag/data/temprod/jh_100405/110506/run2_5_06052011.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s08/s08_run2.fif
+
+ln -s /neurospin/acquisition/neuromag/data/temprod/jh_100405/110506/run4_85_06052011.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s08/s08_run3.fif
+
+ln -s /neurospin/acquisition/neuromag/data/temprod/jh_100405/110506/run4_65_06052011.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s08/s08_run4.fif
+
+ln -s /neurospin/acquisition/neuromag/data/temprod/jh_100405/110506/run5_65_06052011.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s08/s08_run5.fif
+
+ln -s /neurospin/acquisition/neuromag/data/temprod/jh_100405/110506/run7_85_06052011.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s08/s08_run6.fif
+
+ln -s /neurospin/acquisition/neuromag/data/temprod/jh_100405/110506/run7_emptyroom.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s08/s08_run7.fif
+

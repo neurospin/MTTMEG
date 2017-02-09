@@ -1,0 +1,347 @@
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=rl130571
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/rl130571-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=ma100253
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/ma100253-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=cb130477
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/cb130477-head.fif
+
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=dm130250
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/dm130250-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=hr130504
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/hr130504-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=jm100042
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/jm100042-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=jm100109
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/jm100109-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=lm130479
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/lm130479-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=mb140004
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/mb140004-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=mm130405
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/mm130405-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=mp140019
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/mp140019-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=ms130534
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/ms130534-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=rb130313
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/rb130313-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=sb120316
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/sb120316-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=sd130343
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/sd130343-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=sg120518
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/sg120518-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=sl130503
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/sl130503-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=tk130502
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/tk130502-head.fif
+
+#####################################################################################
+# compute BEM model
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+export SUBJECT=wl130316
+
+mne_init
+mne_watershed_bem
+
+cd ${SUBJECTS_DIR}/${SUBJECT}/bem
+ln -s watershed/${SUBJECT}_inner_skull_surface inner_skull.surf
+ln -s watershed/${SUBJECT}_outer_skin_surface outer_skin.surf
+ln -s watershed/${SUBJECT}_outer_skull_surface outer_skull.surf
+
+mkheadsurf -s $SUBJECT
+
+mne_surf2bem --surf ${SUBJECTS_DIR}/${SUBJECT}/surf/lh.seghead --id 4 --check --fif ${SUBJECTS_DIR}/${SUBJECT}/bem/wl130316-head.fif
+
+
+
+
+

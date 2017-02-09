@@ -1,0 +1,44 @@
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+
+freesurfer_init
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0023.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJ_CTRL_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0023.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJ_CTRL_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0024.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJ_CTRL_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0024.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJ_CTRL_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0002.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJ_TJ_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0002.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJ_TJ_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0003.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJ_SJ_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0003.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJ_SJ_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0004.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TPROJ_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0004.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TPROJ_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0005.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SPROJ_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0005.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SPROJ_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0025.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_CTRL-SJTJ_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0025.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_CTRL-SJTJ_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0019.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SPROJSPEC_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0019.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SPROJSPEC_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0020.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TPROJSPEC_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_0020.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TPROJSPEC_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_006.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJCF_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_006.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJCF_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_007.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJCF_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl_mod2/spmT_007.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJCF_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/TJ-REST/spmT_0001.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJ-REST_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/TJ-REST/spmT_0001.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJ-REST_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/SJ-REST/spmT_0001.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJ-REST_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/SJ-REST/spmT_0001.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJ-REST_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/CTRL-BASELINE/spmT_0001.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_CTRL-REST_lh_projfrac05.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/CTRL-BASELINE/spmT_0001.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_CTRL-REST_rh_projfrac05.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+
+
+
+
+

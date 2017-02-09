@@ -1,0 +1,256 @@
+######################################################################
+# NO SPACES AFTER export !!!!
+######################################################################
+
+######################################################################
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=ma100253
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/ma100253_tmp/ptk_server_task_0/ma100253-3530_001_000002_1.3.12.2.1107.5.2.32.35185.201301241429331758992361.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+######################################################################
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=rl130571
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/rl130571_tmp/ptk_server_task_0/rl130571-4131_001_000002_1.3.12.2.1107.5.2.32.35185.201312091613323175433400.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=ms130534
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/ms130534_tmp/ptk_server_task_9/ms130534-4121_001_000002_1.3.12.2.1107.5.2.32.35185.201312041442572037829985.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=jm100042
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/jm100042_tmp/ptk_server_task_0/jm100042-4100_001_000002_1.3.12.2.1107.5.2.32.35185.20131126092935332608317.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sd130343
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/sd130343_tmp/ptk_server_task_0bis/sd130343-4242_001_000002_1.3.12.2.1107.5.2.32.35185.201402170903241565001638.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=mb140004
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/mb140004_tmp/ptk_server_task_1/mb140004-4183_001_000002_1.3.12.2.1107.5.2.32.35185.201401201242441973521455.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=cb130477
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/cb130477_tmp/ptk_server_task_1bis/cb130477-4062_001_000002_1.3.12.2.1107.5.2.32.35185.201310300908031423217823.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=mp140019
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/mp140019_tmp/ptk_server_task_2/mp140019-4197_001_000002_1.3.12.2.1107.5.2.32.35185.201401271133447304028790.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=mp140019
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/mm130405_tmp/ptk_server_task_3/mm130405-4208_001_000002_1.3.12.2.1107.5.2.32.35185.20140203122010440506642.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=mm130405
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/mm130405_tmp/ptk_server_task_3/mm130405-4208_001_000002_1.3.12.2.1107.5.2.32.35185.20140203122010440506642.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=hr130504
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/hr130504_tmp/ptk_server_task_4/hr130504-4216_001_000002_1.3.12.2.1107.5.2.32.35185.20140205152056721498395.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=dm130250
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/dm130250_tmp/ptk_server_task_5/dm130250-4210_001_000002_1.3.12.2.1107.5.2.32.35185.20140203161715881432835.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=wl130316
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/wl130316_tmp/ptk_server_task_6/wl130316-4214_001_000002_1.3.12.2.1107.5.2.32.35185.201402041212351268738638.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=lm130479
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/lm130479_tmp/ptk_server_task_7/lm130479-4165_001_000002_1.3.12.2.1107.5.2.32.35185.20131223112919218622932.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sg120518
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/sg120518_tmp/ptk_server_task_8/sg120518-4141_001_000002_1.3.12.2.1107.5.2.32.35185.20131212130722657965446.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sb120316
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/sb120316_tmp/ptk_server_task_10/sb120316-4113_001_000002_1.3.12.2.1107.5.2.32.35185.20131202120222451022481.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=jm100109
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/jm100109_tmp/ptk_server_task_12/jm100109-4114_001_000002_1.3.12.2.1107.5.2.32.35185.20131202141839737364036.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=rb130313
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/rb130313_tmp/ptk_server_task_14/rb130313-4098_001_000002_1.3.12.2.1107.5.2.32.35185.20131125134012902615627.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=tk130502
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/tk130502_tmp/ptk_server_task_13/tk130502-4129_001_000002_1.3.12.2.1107.5.2.32.35185.20131209114930730220957.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+########################################################################
+
+export FREESURFER_HOME=/i2bm/local/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sl130503
+export PTK=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/sl130503_tmp/ptk_server_task_11/sl130503-4137_001_000002_1.3.12.2.1107.5.2.32.35185.20131211155119170680283.dcm
+
+freesurfer
+recon-all -s $SUBJECT -i $PTK -all
+
+
+
+
+
+
+
+
+
+
+
+
+
+

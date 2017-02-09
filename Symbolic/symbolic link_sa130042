@@ -1,0 +1,12 @@
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run1_Left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run1_left.fif 
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run2_Left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run2_left.fif
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run3_Right.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run3_right.fif
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run5_Right.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run4_right.fif
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run5_Left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run5_left.fif
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run6_Left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run6_left.fif
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run7_right.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run7_right.fif
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run8_right.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run8_right.fif
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run9_left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run9_left.fif
+ ln -s /neurospin/local/neuromag/data/mtt_meg/sa_130042/130701/run10_right.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss/run10_right.fif
+
+

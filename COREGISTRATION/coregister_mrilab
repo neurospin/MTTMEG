@@ -1,0 +1,142 @@
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=cb130477
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/cb130477/raw_sss/
+mne_setup_mri --cb130477
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=dm130250
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/dm130250/raw_sss/
+mne_setup_mri --dm130250
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=hr130504
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/hr130504/raw_sss/
+mne_setup_mri --hr130504
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=jm100042
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/jm100042/raw_sss/
+mne_setup_mri --jm100042
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=jm100109
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/jm100109/raw_sss/
+mne_setup_mri --jm100109
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=lm130479
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/lm130479/raw_sss/
+mne_setup_mri --jlm130479
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=ma100253
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/ma100253/raw_sss/
+mne_setup_mri --ma100253
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=mm130405
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/mm130405/raw_sss/
+mne_setup_mri --mm130405
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=mp140019
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/mp140019/raw_sss/
+mne_setup_mri --mp140019
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=mb140004
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/mb140004/raw_sss/
+mne_setup_mri --mb140004
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=ms130534
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/ms130534/raw_sss/
+mne_setup_mri --ms130534
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=rb130313
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/rb130313/raw_sss/
+mne_setup_mri --rb130313
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=rl130571
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/rl130571/raw_sss/
+mne_setup_mri --rl130571
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sb120316
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sb120316/raw_sss/
+mne_setup_mri --sb120316
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sd130343
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sd130343/raw_sss/
+mne_setup_mri --sd130343
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sg120518
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/
+mne_setup_mri --sg120518
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sl130503
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sl130503/raw_sss/
+mne_setup_mri --sl130503
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=tk130502
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/tk130502/raw_sss/
+mne_setup_mri --tk130502
+
+mne_init
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=wl130316
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/wl130316/raw_sss/
+mne_setup_mri --wl130316
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

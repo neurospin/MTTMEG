@@ -1,0 +1,3313 @@
+{
+    "jobs": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31, 
+        32, 
+        33, 
+        34, 
+        35, 
+        36, 
+        37, 
+        38, 
+        39, 
+        40, 
+        41, 
+        42, 
+        43, 
+        44, 
+        45, 
+        46, 
+        47, 
+        48, 
+        49, 
+        50, 
+        51, 
+        52, 
+        53, 
+        54, 
+        55, 
+        56, 
+        57, 
+        58, 
+        59, 
+        60, 
+        61, 
+        62, 
+        63, 
+        64, 
+        65, 
+        66, 
+        67, 
+        68, 
+        69, 
+        70, 
+        71, 
+        72, 
+        73, 
+        74, 
+        75, 
+        76, 
+        77, 
+        78, 
+        79, 
+        80, 
+        81, 
+        82, 
+        83, 
+        84, 
+        85, 
+        86, 
+        87, 
+        88, 
+        89, 
+        90, 
+        91, 
+        92, 
+        93, 
+        94, 
+        95, 
+        96, 
+        97, 
+        98, 
+        99, 
+        100, 
+        101, 
+        102, 
+        103, 
+        104, 
+        105, 
+        106, 
+        107, 
+        108, 
+        109, 
+        110, 
+        111, 
+        112, 
+        113, 
+        114, 
+        115, 
+        116, 
+        117, 
+        118, 
+        119, 
+        120, 
+        121, 
+        122, 
+        123, 
+        124, 
+        125, 
+        126, 
+        127, 
+        128, 
+        129, 
+        130, 
+        131, 
+        132, 
+        133, 
+        134, 
+        135, 
+        136, 
+        137, 
+        138, 
+        139, 
+        140, 
+        141, 
+        142, 
+        143, 
+        144, 
+        145, 
+        146, 
+        147, 
+        148, 
+        149, 
+        150, 
+        151, 
+        152, 
+        153, 
+        154, 
+        155, 
+        156, 
+        157, 
+        158, 
+        159, 
+        160, 
+        161, 
+        162, 
+        163, 
+        164, 
+        165, 
+        166, 
+        167, 
+        168, 
+        169, 
+        170, 
+        171, 
+        172, 
+        173, 
+        174, 
+        175, 
+        176, 
+        177, 
+        178, 
+        179, 
+        180, 
+        181, 
+        182, 
+        183, 
+        184, 
+        185, 
+        186
+    ], 
+    "name": null, 
+    "serialized_jobs": {
+        "126": {
+            "name": "mb140004EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "133": {
+            "name": "mp140019Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "91": {
+            "name": "ms130534EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "131": {
+            "name": "rm_all_mb140004_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_mb140004_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "130": {
+            "name": "mb140004EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "137": {
+            "name": "mp140019EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "136": {
+            "name": "mp140019EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "135": {
+            "name": "mp140019EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "90": {
+            "name": "ms130534EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "139": {
+            "name": "mp140019QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "138": {
+            "name": "mp140019QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "166": {
+            "name": "wl130316Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "24": {
+            "name": "rb130313EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "25": {
+            "name": "rb130313EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "26": {
+            "name": "rb130313EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "27": {
+            "name": "rb130313EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "20": {
+            "name": "cb130477EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "21": {
+            "name": "rm_all_cb130477_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_cb130477_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "22": {
+            "name": "rb130313Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "23": {
+            "name": "rb130313Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "160": {
+            "name": "hr130504QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "28": {
+            "name": "rb130313QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "29": {
+            "name": "rb130313QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "161": {
+            "name": "hr130504QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "0": {
+            "name": "sd130343Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "4": {
+            "name": "sd130343EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "8": {
+            "name": "sd130343EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "163": {
+            "name": "hr130504EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "68": {
+            "name": "tk130502EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "87": {
+            "name": "rm_all_lm130479_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_lm130479_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "120": {
+            "name": "rm_all_sl130503_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_sl130503_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "121": {
+            "name": "mb140004Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "122": {
+            "name": "mb140004Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "123": {
+            "name": "mb140004EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "124": {
+            "name": "mb140004EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "125": {
+            "name": "mb140004EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "129": {
+            "name": "mb140004EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "127": {
+            "name": "mb140004QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "128": {
+            "name": "mb140004QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mb140004QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "2": {
+            "name": "sd130343EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "59": {
+            "name": "sb120316EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "58": {
+            "name": "sb120316EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "132": {
+            "name": "mp140019Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "55": {
+            "name": "sb120316Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "54": {
+            "name": "rm_all_jm100109_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_jm100109_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "57": {
+            "name": "sb120316EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "56": {
+            "name": "sb120316Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "51": {
+            "name": "jm100109QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "50": {
+            "name": "jm100109QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "53": {
+            "name": "jm100109EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "52": {
+            "name": "jm100109EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "66": {
+            "name": "tk130502Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "134": {
+            "name": "mp140019EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "115": {
+            "name": "sl130503EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "114": {
+            "name": "sl130503EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "88": {
+            "name": "ms130534Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "116": {
+            "name": "sl130503QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "111": {
+            "name": "sl130503Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "110": {
+            "name": "sl130503Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "113": {
+            "name": "sl130503EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "69": {
+            "name": "tk130502EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "82": {
+            "name": "lm130479EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "83": {
+            "name": "lm130479QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "80": {
+            "name": "lm130479EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "81": {
+            "name": "lm130479EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "119": {
+            "name": "sl130503EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "118": {
+            "name": "sl130503EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "84": {
+            "name": "lm130479QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "85": {
+            "name": "lm130479EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "3": {
+            "name": "sd130343EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "7": {
+            "name": "sd130343QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "108": {
+            "name": "ma100253EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "109": {
+            "name": "rm_all_ma100253_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_ma100253_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "102": {
+            "name": "ma100253EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "103": {
+            "name": "ma100253EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "167": {
+            "name": "wl130316EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "101": {
+            "name": "ma100253EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "106": {
+            "name": "ma100253QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "107": {
+            "name": "ma100253EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "104": {
+            "name": "ma100253EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "105": {
+            "name": "ma100253QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "39": {
+            "name": "jm100042QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "38": {
+            "name": "jm100042EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "33": {
+            "name": "jm100042Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "32": {
+            "name": "rm_all_rb130313_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_rb130313_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "31": {
+            "name": "rb130313EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "30": {
+            "name": "rb130313EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rb130313EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "37": {
+            "name": "jm100042EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "36": {
+            "name": "jm100042EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "35": {
+            "name": "jm100042EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "34": {
+            "name": "jm100042Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "162": {
+            "name": "hr130504EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "86": {
+            "name": "lm130479EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "60": {
+            "name": "sb120316EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "61": {
+            "name": "sb120316QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "62": {
+            "name": "sb120316QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "63": {
+            "name": "sb120316EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "64": {
+            "name": "sb120316EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sb120316EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "65": {
+            "name": "rm_all_sb120316_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_sb120316_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "179": {
+            "name": "rl130571EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "178": {
+            "name": "rl130571EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "177": {
+            "name": "rl130571Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "176": {
+            "name": "rl130571Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "175": {
+            "name": "rm_all_wl130316_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_wl130316_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "174": {
+            "name": "wl130316EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "173": {
+            "name": "wl130316EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "172": {
+            "name": "wl130316QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "171": {
+            "name": "wl130316QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "170": {
+            "name": "wl130316EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "182": {
+            "name": "rl130571QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "183": {
+            "name": "rl130571QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "180": {
+            "name": "rl130571EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "181": {
+            "name": "rl130571EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "186": {
+            "name": "rm_all_rl130571_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_rl130571_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "184": {
+            "name": "rl130571EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "6": {
+            "name": "sd130343QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "185": {
+            "name": "rl130571EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_rl130571EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "99": {
+            "name": "ma100253Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "98": {
+            "name": "rm_all_ms130534_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_ms130534_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "168": {
+            "name": "wl130316EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "169": {
+            "name": "wl130316EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "164": {
+            "name": "rm_all_hr130504_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_hr130504_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "165": {
+            "name": "wl130316Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_wl130316Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "93": {
+            "name": "ms130534EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "92": {
+            "name": "ms130534EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "95": {
+            "name": "ms130534QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "94": {
+            "name": "ms130534QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "97": {
+            "name": "ms130534EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "96": {
+            "name": "ms130534EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "11": {
+            "name": "cb130477Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "10": {
+            "name": "rm_all_sd130343_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_sd130343_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "13": {
+            "name": "cb130477EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "12": {
+            "name": "cb130477Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "15": {
+            "name": "cb130477EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "14": {
+            "name": "cb130477EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "17": {
+            "name": "cb130477QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "16": {
+            "name": "cb130477EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "19": {
+            "name": "cb130477EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "18": {
+            "name": "cb130477QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_cb130477QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "117": {
+            "name": "sl130503QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "89": {
+            "name": "ms130534Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ms130534Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "151": {
+            "name": "dm130250EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "150": {
+            "name": "dm130250QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "153": {
+            "name": "rm_all_dm130250_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_dm130250_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "152": {
+            "name": "dm130250EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "155": {
+            "name": "hr130504Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "154": {
+            "name": "hr130504Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "157": {
+            "name": "hr130504EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "156": {
+            "name": "hr130504EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "159": {
+            "name": "hr130504EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "158": {
+            "name": "hr130504EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_hr130504EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "112": {
+            "name": "sl130503EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sl130503EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "100": {
+            "name": "ma100253Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_ma100253Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "48": {
+            "name": "jm100109EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "49": {
+            "name": "jm100109EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "46": {
+            "name": "jm100109EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "47": {
+            "name": "jm100109EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "44": {
+            "name": "jm100109Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "45": {
+            "name": "jm100109Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100109Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "42": {
+            "name": "jm100042EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "43": {
+            "name": "rm_all_jm100042_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_jm100042_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "40": {
+            "name": "jm100042QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "41": {
+            "name": "jm100042EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_jm100042EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "1": {
+            "name": "sd130343Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "5": {
+            "name": "sd130343EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "9": {
+            "name": "sd130343EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_sd130343EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "146": {
+            "name": "dm130250EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250EtDtq1G_QRT3_EtDtq2G_QRT3_EtDtq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "147": {
+            "name": "dm130250EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "144": {
+            "name": "dm130250Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "145": {
+            "name": "dm130250EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "142": {
+            "name": "rm_all_mp140019_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_mp140019_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "143": {
+            "name": "dm130250Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "140": {
+            "name": "mp140019EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "141": {
+            "name": "mp140019EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_mp140019EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "148": {
+            "name": "dm130250EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "149": {
+            "name": "dm130250QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_dm130250QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "77": {
+            "name": "lm130479Qt_all_Qs_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479Qt_all_Qs_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "76": {
+            "name": "rm_all_tk130502_44", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/rmepochs_rm_all_tk130502_44.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "75": {
+            "name": "tk130502EsWest_EsPar_EsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502EsWest_EsPar_EsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "74": {
+            "name": "tk130502EtPast_EtPre_EtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502EtPast_EtPre_EtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "73": {
+            "name": "tk130502QsWest_QsPar_QsEast_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502QsWest_QsPar_QsEast_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "72": {
+            "name": "tk130502QtPast_QtPre_QtFut_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502QtPast_QtPre_QtFut_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "71": {
+            "name": "tk130502EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502EsDsq1G_QRT2_EsDsq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "70": {
+            "name": "tk130502EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502EtDtq1G_QRT2_EtDtq2G_QRT2_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "79": {
+            "name": "lm130479EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479EsDsq1G_QRT3_EsDsq2G_QRT3_EsDsq3G_QRT3_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "78": {
+            "name": "lm130479Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_lm130479Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }, 
+        "67": {
+            "name": "tk130502Et_all_Es_all_44Hz", 
+            "parallel_job_info": null, 
+            "native_specification": "-l walltime=24:00:00, -l nodes=1:ppn=5", 
+            "priority": 0, 
+            "join_stderrout": false, 
+            "command": [
+                "python", 
+                "/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/SCRIPTS/MNE_PYTHON/JOBS_DECFILT/epoch&decode2C_tk130502Et_all_Es_all_44Hz.py"
+            ], 
+            "disposal_timeout": 168
+        }
+    }, 
+    "serialized_file_transfers": {}, 
+    "serialized_groups": {}, 
+    "dependencies": [
+        [
+            0, 
+            10
+        ], 
+        [
+            11, 
+            21
+        ], 
+        [
+            22, 
+            32
+        ], 
+        [
+            33, 
+            43
+        ], 
+        [
+            44, 
+            54
+        ], 
+        [
+            55, 
+            65
+        ], 
+        [
+            66, 
+            76
+        ], 
+        [
+            77, 
+            87
+        ], 
+        [
+            88, 
+            98
+        ], 
+        [
+            99, 
+            109
+        ], 
+        [
+            110, 
+            120
+        ], 
+        [
+            121, 
+            131
+        ], 
+        [
+            132, 
+            142
+        ], 
+        [
+            143, 
+            153
+        ], 
+        [
+            154, 
+            164
+        ], 
+        [
+            165, 
+            175
+        ], 
+        [
+            176, 
+            186
+        ], 
+        [
+            1, 
+            10
+        ], 
+        [
+            12, 
+            21
+        ], 
+        [
+            23, 
+            32
+        ], 
+        [
+            34, 
+            43
+        ], 
+        [
+            45, 
+            54
+        ], 
+        [
+            56, 
+            65
+        ], 
+        [
+            67, 
+            76
+        ], 
+        [
+            78, 
+            87
+        ], 
+        [
+            89, 
+            98
+        ], 
+        [
+            100, 
+            109
+        ], 
+        [
+            111, 
+            120
+        ], 
+        [
+            122, 
+            131
+        ], 
+        [
+            133, 
+            142
+        ], 
+        [
+            144, 
+            153
+        ], 
+        [
+            155, 
+            164
+        ], 
+        [
+            166, 
+            175
+        ], 
+        [
+            177, 
+            186
+        ], 
+        [
+            2, 
+            10
+        ], 
+        [
+            13, 
+            21
+        ], 
+        [
+            24, 
+            32
+        ], 
+        [
+            35, 
+            43
+        ], 
+        [
+            46, 
+            54
+        ], 
+        [
+            57, 
+            65
+        ], 
+        [
+            68, 
+            76
+        ], 
+        [
+            79, 
+            87
+        ], 
+        [
+            90, 
+            98
+        ], 
+        [
+            101, 
+            109
+        ], 
+        [
+            112, 
+            120
+        ], 
+        [
+            123, 
+            131
+        ], 
+        [
+            134, 
+            142
+        ], 
+        [
+            145, 
+            153
+        ], 
+        [
+            156, 
+            164
+        ], 
+        [
+            167, 
+            175
+        ], 
+        [
+            178, 
+            186
+        ], 
+        [
+            3, 
+            10
+        ], 
+        [
+            14, 
+            21
+        ], 
+        [
+            25, 
+            32
+        ], 
+        [
+            36, 
+            43
+        ], 
+        [
+            47, 
+            54
+        ], 
+        [
+            58, 
+            65
+        ], 
+        [
+            69, 
+            76
+        ], 
+        [
+            80, 
+            87
+        ], 
+        [
+            91, 
+            98
+        ], 
+        [
+            102, 
+            109
+        ], 
+        [
+            113, 
+            120
+        ], 
+        [
+            124, 
+            131
+        ], 
+        [
+            135, 
+            142
+        ], 
+        [
+            146, 
+            153
+        ], 
+        [
+            157, 
+            164
+        ], 
+        [
+            168, 
+            175
+        ], 
+        [
+            179, 
+            186
+        ], 
+        [
+            4, 
+            10
+        ], 
+        [
+            15, 
+            21
+        ], 
+        [
+            26, 
+            32
+        ], 
+        [
+            37, 
+            43
+        ], 
+        [
+            48, 
+            54
+        ], 
+        [
+            59, 
+            65
+        ], 
+        [
+            70, 
+            76
+        ], 
+        [
+            81, 
+            87
+        ], 
+        [
+            92, 
+            98
+        ], 
+        [
+            103, 
+            109
+        ], 
+        [
+            114, 
+            120
+        ], 
+        [
+            125, 
+            131
+        ], 
+        [
+            136, 
+            142
+        ], 
+        [
+            147, 
+            153
+        ], 
+        [
+            158, 
+            164
+        ], 
+        [
+            169, 
+            175
+        ], 
+        [
+            180, 
+            186
+        ], 
+        [
+            5, 
+            10
+        ], 
+        [
+            16, 
+            21
+        ], 
+        [
+            27, 
+            32
+        ], 
+        [
+            38, 
+            43
+        ], 
+        [
+            49, 
+            54
+        ], 
+        [
+            60, 
+            65
+        ], 
+        [
+            71, 
+            76
+        ], 
+        [
+            82, 
+            87
+        ], 
+        [
+            93, 
+            98
+        ], 
+        [
+            104, 
+            109
+        ], 
+        [
+            115, 
+            120
+        ], 
+        [
+            126, 
+            131
+        ], 
+        [
+            137, 
+            142
+        ], 
+        [
+            148, 
+            153
+        ], 
+        [
+            159, 
+            164
+        ], 
+        [
+            170, 
+            175
+        ], 
+        [
+            181, 
+            186
+        ], 
+        [
+            6, 
+            10
+        ], 
+        [
+            17, 
+            21
+        ], 
+        [
+            28, 
+            32
+        ], 
+        [
+            39, 
+            43
+        ], 
+        [
+            50, 
+            54
+        ], 
+        [
+            61, 
+            65
+        ], 
+        [
+            72, 
+            76
+        ], 
+        [
+            83, 
+            87
+        ], 
+        [
+            94, 
+            98
+        ], 
+        [
+            105, 
+            109
+        ], 
+        [
+            116, 
+            120
+        ], 
+        [
+            127, 
+            131
+        ], 
+        [
+            138, 
+            142
+        ], 
+        [
+            149, 
+            153
+        ], 
+        [
+            160, 
+            164
+        ], 
+        [
+            171, 
+            175
+        ], 
+        [
+            182, 
+            186
+        ], 
+        [
+            7, 
+            10
+        ], 
+        [
+            18, 
+            21
+        ], 
+        [
+            29, 
+            32
+        ], 
+        [
+            40, 
+            43
+        ], 
+        [
+            51, 
+            54
+        ], 
+        [
+            62, 
+            65
+        ], 
+        [
+            73, 
+            76
+        ], 
+        [
+            84, 
+            87
+        ], 
+        [
+            95, 
+            98
+        ], 
+        [
+            106, 
+            109
+        ], 
+        [
+            117, 
+            120
+        ], 
+        [
+            128, 
+            131
+        ], 
+        [
+            139, 
+            142
+        ], 
+        [
+            150, 
+            153
+        ], 
+        [
+            161, 
+            164
+        ], 
+        [
+            172, 
+            175
+        ], 
+        [
+            183, 
+            186
+        ], 
+        [
+            8, 
+            10
+        ], 
+        [
+            19, 
+            21
+        ], 
+        [
+            30, 
+            32
+        ], 
+        [
+            41, 
+            43
+        ], 
+        [
+            52, 
+            54
+        ], 
+        [
+            63, 
+            65
+        ], 
+        [
+            74, 
+            76
+        ], 
+        [
+            85, 
+            87
+        ], 
+        [
+            96, 
+            98
+        ], 
+        [
+            107, 
+            109
+        ], 
+        [
+            118, 
+            120
+        ], 
+        [
+            129, 
+            131
+        ], 
+        [
+            140, 
+            142
+        ], 
+        [
+            151, 
+            153
+        ], 
+        [
+            162, 
+            164
+        ], 
+        [
+            173, 
+            175
+        ], 
+        [
+            184, 
+            186
+        ], 
+        [
+            9, 
+            10
+        ], 
+        [
+            20, 
+            21
+        ], 
+        [
+            31, 
+            32
+        ], 
+        [
+            42, 
+            43
+        ], 
+        [
+            53, 
+            54
+        ], 
+        [
+            64, 
+            65
+        ], 
+        [
+            75, 
+            76
+        ], 
+        [
+            86, 
+            87
+        ], 
+        [
+            97, 
+            98
+        ], 
+        [
+            108, 
+            109
+        ], 
+        [
+            119, 
+            120
+        ], 
+        [
+            130, 
+            131
+        ], 
+        [
+            141, 
+            142
+        ], 
+        [
+            152, 
+            153
+        ], 
+        [
+            163, 
+            164
+        ], 
+        [
+            174, 
+            175
+        ], 
+        [
+            185, 
+            186
+        ]
+    ], 
+    "groups": [], 
+    "serialized_shared_res_paths": {}, 
+    "root_group": [
+        0, 
+        1, 
+        2, 
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        8, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        16, 
+        17, 
+        18, 
+        19, 
+        20, 
+        21, 
+        22, 
+        23, 
+        24, 
+        25, 
+        26, 
+        27, 
+        28, 
+        29, 
+        30, 
+        31, 
+        32, 
+        33, 
+        34, 
+        35, 
+        36, 
+        37, 
+        38, 
+        39, 
+        40, 
+        41, 
+        42, 
+        43, 
+        44, 
+        45, 
+        46, 
+        47, 
+        48, 
+        49, 
+        50, 
+        51, 
+        52, 
+        53, 
+        54, 
+        55, 
+        56, 
+        57, 
+        58, 
+        59, 
+        60, 
+        61, 
+        62, 
+        63, 
+        64, 
+        65, 
+        66, 
+        67, 
+        68, 
+        69, 
+        70, 
+        71, 
+        72, 
+        73, 
+        74, 
+        75, 
+        76, 
+        77, 
+        78, 
+        79, 
+        80, 
+        81, 
+        82, 
+        83, 
+        84, 
+        85, 
+        86, 
+        87, 
+        88, 
+        89, 
+        90, 
+        91, 
+        92, 
+        93, 
+        94, 
+        95, 
+        96, 
+        97, 
+        98, 
+        99, 
+        100, 
+        101, 
+        102, 
+        103, 
+        104, 
+        105, 
+        106, 
+        107, 
+        108, 
+        109, 
+        110, 
+        111, 
+        112, 
+        113, 
+        114, 
+        115, 
+        116, 
+        117, 
+        118, 
+        119, 
+        120, 
+        121, 
+        122, 
+        123, 
+        124, 
+        125, 
+        126, 
+        127, 
+        128, 
+        129, 
+        130, 
+        131, 
+        132, 
+        133, 
+        134, 
+        135, 
+        136, 
+        137, 
+        138, 
+        139, 
+        140, 
+        141, 
+        142, 
+        143, 
+        144, 
+        145, 
+        146, 
+        147, 
+        148, 
+        149, 
+        150, 
+        151, 
+        152, 
+        153, 
+        154, 
+        155, 
+        156, 
+        157, 
+        158, 
+        159, 
+        160, 
+        161, 
+        162, 
+        163, 
+        164, 
+        165, 
+        166, 
+        167, 
+        168, 
+        169, 
+        170, 
+        171, 
+        172, 
+        173, 
+        174, 
+        175, 
+        176, 
+        177, 
+        178, 
+        179, 
+        180, 
+        181, 
+        182, 
+        183, 
+        184, 
+        185, 
+        186
+    ]
+}

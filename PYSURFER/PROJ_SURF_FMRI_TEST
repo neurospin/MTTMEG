@@ -1,0 +1,11 @@
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri
+
+freesurfer_init
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/BENOIT_MT/BAPTISTE_FOLDER/Subjects/group_analysis_model30/oneway_anova_20lvl/spmT_0009.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SPROJ_SJ_rh.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/MentalTravel_Martin_2014/BAPTISTE_FOLDER/Subjects/group_analysis_model40/oneway_anova_20lvl/TJ-SJ_FDRcorr.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJ-SJ_rh.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/MentalTravel_Martin_2014/BAPTISTE_FOLDER/Subjects/group_analysis_model40/oneway_anova_20lvl/TJ-SJ_FDRcorr.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_TJ-SJ_lh.mgz --regheader fsaverage --hemi lh --projfrac 0.5
+
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/MentalTravel_Martin_2014/BAPTISTE_FOLDER/Subjects/group_analysis_model40/oneway_anova_20lvl/SJ-TJ_FDRcorr.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJ-TJ_rh.mgz --regheader fsaverage --hemi rh --projfrac 0.5
+mri_vol2surf --src /neurospin/unicog/protocols/IRMf/MentalTravel_Martin_2014/BAPTISTE_FOLDER/Subjects/group_analysis_model40/oneway_anova_20lvl/SJ-TJ_FDRcorr.hdr --o /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/GROUP/fMRI/GROUPlvl_SJ-TJ_lh.mgz --regheader fsaverage --hemi lh --projfrac 0.5

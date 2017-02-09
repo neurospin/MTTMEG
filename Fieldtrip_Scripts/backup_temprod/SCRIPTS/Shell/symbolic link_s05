@@ -1,0 +1,10 @@
+ ln -s /neurospin/acquisition/neuromag/data/temprod/kr_080082/110118/Kr080082TemprodRest.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s05/rest_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/kr_080082/110118/kr080082Temprodblock2.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s05/block1_LH_6.5s_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/kr_080082/110118/kr080082TemprodBlock2.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s05/block2_RH_8.5s_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/kr_080082/110118/kr080082TemprodBlock.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s05/block3_RH_6.5s_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/kr_080082/110118/kr080082_EmptyRoom.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s05/emptyroom_raw.fif
+

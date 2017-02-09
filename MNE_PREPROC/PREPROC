@@ -1,0 +1,40 @@
+############################ preprocessing ###############################################
+mne_init
+
+# apply ssp projection and filter at 40 Hz
+Preprocess.sh
+
+############################ MRILAB Coregistration #####################################
+#Create COR.fif file
+mne_init 
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sd130343
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sd130343/mne_python/
+mne_setup_mri -- sd130343
+
+cd /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG 
+mrilab
+
+############################ MNE iterative procedure ###################################
+mne_init 
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sd130343
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sd130343/mne_python/
+mne_setup_mri -- sd130343
+
+mne_analyze
+
+############################ compute fwd ###############################################
+mne_init 
+
+export SUBJECTS_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/
+export SUBJECT=sd130343
+export MEG_DIR=/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sd130343
+
+mne_setup_source_space --ico 5 –overwrite
+mne_setup_forward_model --homog --surf --ico 4
+
+mne_do_forward_solution --mindist 5 --spacing ico-5 --mricoord /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sd130343/raw_sss/run1_GD_trans_sss-trans.fif --meas /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sd130343/raw_sss/run1_GD_trans_sss.fif --bem sd130343-5120.fif --megonly --overwrite --fwd /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sd130343/mne_python/sd130343_run1_ico-5-fwd.fif
+

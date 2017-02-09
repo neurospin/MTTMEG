@@ -1,0 +1,24 @@
+
+cd /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/sa130042/raw_sss
+
+chmod 777 *
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run1_left.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run2_left.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run3_right.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run4_right.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run5_left.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run6_left.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run7_right.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run8_right.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run9_left.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run10_right.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 7 -bad 1613 1722 1723 2432 -trans run5_left.fif

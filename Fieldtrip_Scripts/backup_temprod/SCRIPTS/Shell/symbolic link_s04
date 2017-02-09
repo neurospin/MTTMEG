@@ -1,0 +1,13 @@
+ ln -s /neurospin/acquisition/neuromag/data/temprod/test_20101103/101103/20101103_bloc1_duration5700ms_raw.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s04/dur5700ms_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/test_20101103/101103/20101103_motorcontrol1_raw.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s04/MC1_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/test_20101103/101103/test20101103_bloc2_dur12800ms_raw.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s04/dur12800ms_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/test_20101103/101103/test20101103_bloc3_dur9300ms_raw.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s04/dur9300ms_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/test_20101103/101103/test20101103_motorcontrol2_raw.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s04/MC2_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/test_20101103/101103/test20101103_rest_raw.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s04/rest_raw.fif
+
+ ln -s /neurospin/acquisition/neuromag/data/temprod/test_3/11/2010/101103/test20101103_emptyroom_noise.fif /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s04/emptyroom_raw.fif

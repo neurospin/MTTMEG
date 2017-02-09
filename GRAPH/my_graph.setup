@@ -1,0 +1,302 @@
+;;;
+;;; This is a setup file for graph
+;;; It builds the saved G widgets and links them in the same way as
+;;; they were linked when this file was generated.
+;;;
+;;; Restore modules
+;;;
+
+(require "graphlib")
+(require "zooming")
+(require "channel-selection")
+(require "std-selections-vv")
+(require "triplet-ecg")
+(require "average")
+(require "xplotter")
+(require "pca")
+(require "ssp")
+
+;;;
+;;; Body of the setup 
+;;;
+
+(graph-setup (:creator "graph" :version 294 :user "bgauthie")
+
+
+;;;
+;;; Restore user parameters
+;;;
+
+(setq default-diskfile "file" default-data-source "meg"
+ssp-vector-directory "/neurospin/local/neuromag/ssp/" print-display-printer
+"papyrus" print-display-whole (quote t) print-display-reverse (quote t)
+scroll-delay 1 default-ecg-amp  0.001 default-eog-amp  1e-06 default-eeg-amp
+ 1e-06 default-meg-amp  3e-11 average-limit 999 average-min-step 300
+average-step 512 average-classify (quote nil) average-rejection
+(quote nil) average-window (quote nil) average-trigger
+(quote (ecg-threshold 0)) average-mode (quote :trigger))
+
+;;;
+;;; Create widgets needed
+;;;
+
+(require-widgets
+(quote
+((diskfile "file"
+("compress-skips" t "open-hook" nil "directory"
+"/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/ma100253/raw_sss/*" "geometry"
+"270x396+493+282" "visibility" 0 "face-y" 210 "face-x" 15))
+(plotter "triplet1"
+("select-hook"
+(eval (append '(sync-selection *this*) triplet-displays)) "move-hook"
+(eval (append '(sync-view *this*) triplet-displays)) "offsets" #m(
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 )
+( 0.0 ))
+ "scales"
+#m(
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.47062873632e-12 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 )
+( 2.99999990128e-11 ))
+ "track-end" nil "translate" t "show-scales" nil
+"show-x-span" nil "ch-label-space" 0 "tick-interval" -1.0 "show-baselines"
+nil "clip-to-port" nil "superpose" nil "selection-length" -1.0
+"selection-start"  0.0 "baseline-color" "grey" "highlight" "pink"
+"background" "white" "default-color" "black" "default-scale"  40000.0
+"max-amount" 1000 "increment" 50 "resolution" 1 "length"  5.0 "point"  0.0
+"geometry" "nil" "visibility" 0 "face-y" 210 "face-x" 535))
+(plotter "triplet2"
+("select-hook"
+(eval (append '(sync-selection *this*) triplet-displays)) "move-hook"
+(eval (append '(sync-view *this*) triplet-displays)) "offsets" #m(
+( 0.0 ))
+ "scales"
+#m(
+( 0.0010000000475 )
+( 0.0010000000475 )
+( 0.0010000000475 ))
+ "track-end" nil "translate" t "show-scales" nil
+"show-x-span" nil "ch-label-space" 0 "tick-interval" -1.0 "show-baselines"
+nil "clip-to-port" nil "superpose" nil "selection-length" -1.0
+"selection-start"  0.0 "baseline-color" "grey" "highlight" "pink"
+"background" "white" "default-color" "black" "default-scale"  40000.0
+"max-amount" 1000 "increment" 50 "resolution" 1 "length"  5.0 "point"  0.0
+"geometry" "nil" "visibility" 0 "face-y" 285 "face-x" 535))
+(plotter "triplet3"
+("select-hook"
+(eval (append '(sync-selection *this*) triplet-displays)) "move-hook"
+(eval (append '(sync-view *this*) triplet-displays)) "offsets" #m(
+( 0.0 ))
+ "scales"
+#m(
+( 0.0010000000475 )
+( 0.0010000000475 )
+( 0.0010000000475 ))
+ "track-end" nil "translate" t "show-scales" nil
+"show-x-span" nil "ch-label-space" 0 "tick-interval" -1.0 "show-baselines"
+nil "clip-to-port" nil "superpose" nil "selection-length" -1.0
+"selection-start"  0.0 "baseline-color" "grey" "highlight" "pink"
+"background" "white" "default-color" "black" "default-scale"  40000.0
+"max-amount" 1000 "increment" 50 "resolution" 1 "length"  5.0 "point"  0.0
+"geometry" "nil" "visibility" 0 "face-y" 355 "face-x" 535))
+(average "average"
+("max-average-size" 20000000 "keep" nil "ignore-errors" nil "output-mode"
+"average" "do-alternating" nil "do-std-error" nil "do-average" t
+"update-freq" 50 "end"  0.40000000596 "start" -0.20000000298 "tag" "MCG"
+"dataname" "average" "geometry" "441x565+785+387" "visibility" 0 "face-y"
+135 "face-x" 265))
+(matrix-source "pca-fields"
+("geometry" "nil" "visibility" 0 "face-y" 514 "face-x" 10))
+(suppressor "ssp"
+("buffer-length" 20000 "geometry" "nil" "visibility" 0 "face-y" 135
+"face-x" 475))
+(ringbuffer "buffer"
+("min-step" 0 "size" 5000000 "geometry" "441x232+706+330" "visibility" 0
+"face-y" 210 "face-x" 70))
+(pick "ecg"
+("ignore" nil "names" ("ECG*") "geometry" "441x426+706+233" "visibility" 0
+"face-y" 285 "face-x" 265))
+(fft-filter "ecg-filter"
+("pass-type" :function "pass-band" (band-pass 1 40 1 1) "restrict" nil
+"remove-dc" t "downsample" 1 "size" 2048 "geometry" "441x357+700+194"
+"visibility" 0 "face-y" 355 "face-x" 340))
+(pick "pick"
+("ignore" nil "names"
+("MEG[ 221  211  131  111  231  241 1511  141 ]"
+"MEG[1621 1611 1521 1541 1531]") "geometry" "441x207+888+223" "visibility" 0
+"face-y" 210 "face-x" 265))
+(fft-filter "chpi-filter"
+("pass-type" :function "pass-band" (low-pass 100 10) "restrict" nil
+"remove-dc" t "downsample" 1 "size" 2048 "geometry" "441x357+882+184"
+"visibility" 0 "face-y" 210 "face-x" 135))
+(unary "ecg-threshold"
+("complex" nil "arguments" ( 0.0003) "function" threshold "geometry"
+"441x257+827+255" "visibility" 0 "face-y" 355 "face-x" 430))
+(command "ave-plotter"
+("widget-data" nil "update-hook" (xplotter-show-data *this*)
+"deactivate-hook" (kill-xplotter *this*) "activate-hook"
+(xplotter *this*) "require-hook" nil "active" t "geometry"
+"441x307+1011+0" "visibility" 0 "face-y" 135 "face-x" 535))
+(plotter "averages"
+("select-hook" nil "move-hook" nil "offsets" #m(
+(-0.564414441586 )
+(-0.0425317324698 )
+( 0.0 ))
+ "scales"
+#m(
+( 5.91281468232e-11 )
+( 5.91281468232e-11 )
+( 5.91281468232e-11 ))
+ "track-end" nil "translate" t "show-scales" nil
+"show-x-span" t "ch-label-space" 0 "tick-interval" -1.0 "show-baselines"
+nil "clip-to-port" nil "superpose" nil "selection-length" -1.0
+"selection-start" -1.0 "baseline-color" "grey" "highlight" "pink"
+"background" "white" "default-color" "black" "default-scale"  40000.0
+"max-amount" 1000 "increment" 50 "resolution" 1 "length"  599.0 "point"
+-200.0 "geometry" "652x557+616+78" "visibility" 1 "face-y" 70 "face-x" 545))
+(pick "meg-mags"
+("ignore" nil "names" ("MEG*1") "geometry" "441x426+738+513" "visibility" 0
+"face-y" 135 "face-x" 345))
+(pick "meg-grads"
+("ignore" ("MEG*1") "names" ("MEG*") "geometry" "441x426+738+513"
+"visibility" 0 "face-y" 70 "face-x" 345))
+(linear "timevar"
+("geometry" "441x150+738+631" "visibility" 0 "face-y" 70 "face-x" 475))
+(selector "to-pca"
+("geometry" "441x150+738+652" "visibility" 0 "face-y" 135 "face-x" 415))
+(fft-filter "hpfilt"
+("pass-type" :function "pass-band" (high-pass 10 1) "restrict" nil
+"remove-dc" t "downsample" 1 "size" 2048 "geometry" "441x357+65+24"
+"visibility" 0 "face-y" 514 "face-x" 85))
+(pick "EEG"
+("ignore" ("EEG064") "names" ("EEG*") "geometry" "441x426+65+26"
+"visibility" 0 "face-y" 5 "face-x" 355))
+(unary "fmul"
+("complex" nil "arguments" (-1) "function" fmul "geometry" "441x257+65+58"
+"visibility" 0 "face-y" 420 "face-x" 400))
+(fft-filter "lpfilt"
+("pass-type" :function "pass-band" (low-pass 10 1) "restrict" nil
+"remove-dc" t "downsample" 1 "size" 2048 "geometry" "441x357+65+24"
+"visibility" 0 "face-y" 510 "face-x" 150)))))
+
+;;;
+;;; Link widgets
+;;;
+
+(link-to (G-widget "triplet1") (G-widget "pick") 0 (G-widget "pick") 1
+(G-widget "pick") 2 (G-widget "pick") 3 (G-widget "pick") 4
+(G-widget "pick") 5 (G-widget "pick") 6 (G-widget "pick") 7
+(G-widget "pick") 8 (G-widget "pick") 9 (G-widget "pick") 10
+(G-widget "pick") 11 (G-widget "pick") 12)
+(link-to (G-widget "triplet2") (G-widget "ecg") 0)
+(link-to (G-widget "triplet3") (G-widget "ecg-threshold") 0)
+(link (G-widget "chpi-filter") (G-widget "average"))
+(link (G-widget "to-pca") (G-widget "ssp"))
+(link (G-widget "file") (G-widget "buffer"))
+(link (G-widget "chpi-filter") (G-widget "ecg"))
+(link (G-widget "ecg") (G-widget "ecg-filter"))
+(link (G-widget "chpi-filter") (G-widget "pick"))
+(link (G-widget "buffer") (G-widget "chpi-filter"))
+(link (G-widget "fmul") (G-widget "ecg-threshold"))
+(link (G-widget "ssp") (G-widget "ave-plotter"))
+(link-to (G-widget "averages") (G-widget "timevar") 0
+(G-widget "timevar") 1 (G-widget "timevar") 2)
+(link (G-widget "average") (G-widget "meg-mags"))
+(link (G-widget "average") (G-widget "meg-grads"))
+(link (G-widget "to-pca") (G-widget "timevar"))
+(link-to (G-widget "to-pca") (G-widget "EEG") 0 (G-widget "EEG") 1
+(G-widget "EEG") 2 (G-widget "EEG") 3 (G-widget "EEG") 4 (G-widget "EEG") 5
+(G-widget "EEG") 6 (G-widget "EEG") 7 (G-widget "EEG") 8 (G-widget "EEG") 9
+(G-widget "EEG") 10 (G-widget "EEG") 11 (G-widget "EEG") 12
+(G-widget "EEG") 13 (G-widget "EEG") 14 (G-widget "EEG") 15
+(G-widget "EEG") 16 (G-widget "EEG") 17 (G-widget "EEG") 18
+(G-widget "EEG") 19 (G-widget "EEG") 20 (G-widget "EEG") 21
+(G-widget "EEG") 22 (G-widget "EEG") 23 (G-widget "EEG") 24
+(G-widget "EEG") 25 (G-widget "EEG") 26 (G-widget "EEG") 27
+(G-widget "EEG") 28 (G-widget "EEG") 29 (G-widget "EEG") 30
+(G-widget "EEG") 31 (G-widget "EEG") 32 (G-widget "EEG") 33
+(G-widget "EEG") 34 (G-widget "EEG") 35 (G-widget "EEG") 36
+(G-widget "EEG") 37 (G-widget "EEG") 38 (G-widget "EEG") 39
+(G-widget "EEG") 40 (G-widget "EEG") 41 (G-widget "EEG") 42
+(G-widget "EEG") 43 (G-widget "EEG") 44 (G-widget "EEG") 45
+(G-widget "EEG") 46 (G-widget "EEG") 47 (G-widget "EEG") 48
+(G-widget "EEG") 49 (G-widget "EEG") 50 (G-widget "EEG") 51
+(G-widget "EEG") 52 (G-widget "EEG") 53 (G-widget "EEG") 54
+(G-widget "EEG") 55 (G-widget "EEG") 56 (G-widget "EEG") 57
+(G-widget "EEG") 58 (G-widget "EEG") 59)
+(link (G-widget "average") (G-widget "EEG"))
+(link (G-widget "ecg-filter") (G-widget "fmul"))
+;;
+;; Done
+
+)

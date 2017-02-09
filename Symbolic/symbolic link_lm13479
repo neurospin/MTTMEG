@@ -1,0 +1,11 @@
+ ln -s /neurospin/acquisition/neuromag/data/mtt_meg/lm_130479/131213/run1_GD.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/lm130479/run1_GD.fif 
+
+ ln -s /neurospin/acquisition/neuromag/data/mtt_meg/lm_130479/131213/run2_GD.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/lm130479/run2_GD.fif 
+
+ ln -s /neurospin/acquisition/neuromag/data/mtt_meg/lm_130479/131213/run3_DG.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/lm130479/run3_DG.fif 
+
+ ln -s /neurospin/acquisition/neuromag/data/mtt_meg/lm_130479/131213/run4_DG.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/lm130479/run4_DG.fif 
+
+ ln -s /neurospin/acquisition/neuromag/data/mtt_meg/lm_130479/131213/run5_GD.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/lm130479/run5_GD.fif 
+
+

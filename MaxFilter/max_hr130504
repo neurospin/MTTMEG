@@ -1,0 +1,15 @@
+
+cd /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/hr130504
+
+chmod 777 *
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run1_GD.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 12 -bad 1042 1731 1721 1933 2142 1722 2522 0942 1722 1723 -trans run3_DG.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run2_GD.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 12 -bad 0942 1042 2132 0541 1933 1722 1723 -trans run3_DG.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run3_DG.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 12 -bad 0942 0513 2142 1933 1722 1723 -trans run3_DG.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f run4_DG.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 12 -bad 1831 2142 0942 2132 1722 1723 -trans run3_DG.fif
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f emptyroom.fif -origin 0.0 0.0 40.0 -frame head -autobad 60 -badlimit 12 -trans run3_DG.fif
+

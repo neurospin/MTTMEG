@@ -1,0 +1,8 @@
+
+cd /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/test2
+
+chmod 777 *
+
+/neurospin/local/neuromag/bin/util/maxfilter -v -f testtrigger.fif -nosss 
+
+

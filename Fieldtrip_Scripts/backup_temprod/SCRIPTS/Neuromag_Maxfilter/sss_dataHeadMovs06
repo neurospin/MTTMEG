@@ -1,0 +1,14 @@
+#!/bin/tcsh
+set raw_dir = /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s06
+set Subject = s06
+cd $raw_dir
+
+show_fiff -vt 222 /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s06/block1_LH_6.5s_raw.fif > /neurospin/meg_tmp/temprod_Baptiste_2010/SCRIPTS/Maxfilter_scripts/sss_dataPos_s06_1.txt
+
+show_fiff -vt 222 /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s06/block2_LH_8.5s_raw.fif > /neurospin/meg_tmp/temprod_Baptiste_2010/SCRIPTS/Maxfilter_scripts/sss_dataPos_s06_2.txt
+
+show_fiff -vt 222 /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s06/block3_RH_6.5s_raw.fif > /neurospin/meg_tmp/temprod_Baptiste_2010/SCRIPTS/Maxfilter_scripts/sss_dataPos_s06_3.txt
+
+show_fiff -vt 222 /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s06/block4_RH_8.5s_raw.fif > /neurospin/meg_tmp/temprod_Baptiste_2010/SCRIPTS/Maxfilter_scripts/sss_dataPos_s06_4.txt
+
+show_fiff -vt 222 /neurospin/meg_tmp/temprod_Baptiste_2010/DATA/NEW/Raw_s06/rest_raw.fif > /neurospin/meg_tmp/temprod_Baptiste_2010/SCRIPTS/Maxfilter_scripts/sss_dataPos_s06_raw.txt

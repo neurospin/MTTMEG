@@ -1,0 +1,10 @@
+ln -s /neurospin/acquisition/neuromag/data/mtt_meg/dm_110482/130725/run1_left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/dm110382/raw_sss/run1_left.fif 
+ln -s /neurospin/acquisition/neuromag/data/mtt_meg/dm_110482/130725/run2_left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/dm110382/raw_sss/run2_left.fif
+ln -s /neurospin/acquisition/neuromag/data/mtt_meg/dm_110482/130725/run3_right.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/dm110382/raw_sss/run3_right.fif
+ln -s /neurospin/acquisition/neuromag/data/mtt_meg/dm_110482/130725/run4_right.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/dm110382/raw_sss/run4_right.fif
+ln -s /neurospin/acquisition/neuromag/data/mtt_meg/dm_110482/130725/run5_left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/dm110382/raw_sss/run5_left.fif
+ln -s /neurospin/acquisition/neuromag/data/mtt_meg/dm_110482/130725/run6_left.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/dm110382/raw_sss/run6_left.fif
+ln -s /neurospin/acquisition/neuromag/data/mtt_meg/dm_110482/130725/run7_right.fif /neurospin/meg/meg_tmp/MTT_MEG_Baptiste/MEG/dm110382/raw_sss/run7_right.fif
+
+
+

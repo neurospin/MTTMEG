@@ -1,0 +1,29 @@
+import glob
+from subprocess import call
+import mne
+ 
+#ListSubj= ('sd130343', 'cb130477', 'rb130313', 'jm100042',  'jm100109', 'sb120316', 'tk130502', 'lm130479',
+#'sg120518','ms130534','ma100253', 'sl130503','mb140004', 'mp140019', 'dm130250', 'hr130504', 'wl130316', 'rl130571')
+    
+ListSubj= ['sd130343', 'cb130477', 'rb130313', 'jm100042',  'jm100109', 'sb120316', 'tk130502', 'lm130479',
+'ms130534','ma100253', 'sl130503','mb140004', 'mp140019', 'dm130250', 'hr130504', 'wl130316', 'rl130571']
+
+source_subject = 'fsaverage'
+wdir = '/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/'
+subjects_dir = wdir + '/neurospin/meg/meg_tmp/MTT_MEG_Baptiste/mri/'
+
+####################################################################
+## Morph labels in parcellation on subject brain from fsaverage brain label
+
+labels = mne.read_labels_from_annot('fsaverage', 'aparc', subjects_dir = subjects_dir, hemi='both')[0]
+ 
+for subject in ListSubj:
+	for label in labels:
+		label.values.fill(1.)
+		label_target = label.morph(source_subject, subject, subjects_dir = subjects_dir)
+		label_target.save(subjects_dir + '%s/label/%s' % (subject, label.name))
+
+for subject in ListSubj:
+	for label in labels:
+		stc_Qt_all = mne.read_source_estimate(wdir + 'MEG/' + ListSubj[subject] + '_mne_python/MEG_' + ListSubj[subject] + '_Qt_all_pick_oriNone_dPSMinverse_ico-5-fwd.fif-rh.stc')	
+		stc_Qs_all = mne.read_source_estimate(wdir + 'MEG/' + ListSubj[subject] + '_mne_python/MEG_' + ListSubj[subject] + '_Qs_all_pick_oriNone_dPSMinverse_ico-5-fwd.fif-rh.stc')
